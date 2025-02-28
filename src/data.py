@@ -1,15 +1,15 @@
 from typing import List
-import sys
 import ruamel.yaml
 from src.kanji_fetcher import fetch_kanjis, fetch_kanji_meanings
 from pathlib import Path
 
 
 class Card:
-    def __init__(self, japanese: str, english: str, kanjis: str):
+    def __init__(self, japanese: str, english: str, kanjis: str, skip_sound=False):
         self.japanese: str = japanese
         self.english: str = english
         self.sound_file: str = None
+        self.skip_sound: bool = skip_sound
         self.kanjis:str = kanjis if kanjis != japanese else ""
         self.kanjis_meanings: List[str] = ""
         self.category: str = ""
@@ -85,8 +85,14 @@ class Deck:
     @staticmethod
     def parse_vocab(subtag, deck, cat, c, skip_index) -> int:
         for e in c["vocabulary"]:
-            skip_index = skip_index+2
-            card = Card(e["japanese"], e["english"], e.get("kanji", ""))
+            skip_index = skip_index + 2
+            # Pass the skip_sound flag to the Card constructor
+            card = Card(
+                japanese=e["japanese"],
+                english=e["english"],
+                kanjis=e.get("kanji", ""),
+                skip_sound=e.get("skip_sound", False)  # Add this line
+            )
             card.category = cat
             card.tags.append(cat)
             card.fuse_with_next = e.get("fuse_with_next", 0)
@@ -101,7 +107,7 @@ class Deck:
                     skips = e["skip_on_semicolon"]
                 for _ in range(skips):
                     deck.skip_words.append(skip_index)
-                    skip_index = skip_index+1
+                    skip_index = skip_index + 1
         return skip_index
 
     @staticmethod

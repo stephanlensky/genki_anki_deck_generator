@@ -128,42 +128,11 @@ cards:
   - japanese: ゆうびんきょく
     english: post office
     kanji: 郵便局
-- category: Countries
-  vocabulary:
-  - japanese: イギリス
-    english: Britain
-    kanji: ''
-  - japanese: かんこく
-    english: Korea
-    kanji: 韓国
-  - japanese: ちゅうごく
-    english: China
-    kanji: 中国
 - category: Majors
   vocabulary:
   - japanese: えいご
     english: English (language)
     kanji: ''
-  - japanese: けいざい
-    english: economics
-    kanji: ''
-  - japanese: コンピューター
-    english: computer
-    kanji: ''
-  - japanese: ビジネス
-    english: business
-    kanji: ''
-  - japanese: れきし
-    english: history
-    kanji: 歴史
-- category: Family
-  vocabulary:
-  - japanese: おかあさん
-    english: mother
-    kanji: お母さん
-  - japanese: おとうさん
-    english: father
-    kanji: お父さん
 - category: Money_Matters
   vocabulary:
   - japanese: いくら

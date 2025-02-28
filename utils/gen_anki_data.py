@@ -16,6 +16,7 @@ def num2kanji(num):
         return None
     return num2words(num, lang='ja')
 
+# todo: let's try not to do this
 def apply_hacks(cat, i, tag, stag=None):
     if i == 0 and tag == 'School':
         for v in cat['vocabulary']:
@@ -322,10 +323,11 @@ for t in tags:
     vocs = list(filter(lambda x: tag in x['tags'], tag_vocab))
     subtags = get_subtags(vocs, tag)
     if len(subtags) in [0,1]:
-        cat['vocabulary'] = [{'japanese': v['jap'], 'english': v['eng'], 'kanji': v['kan']} for v in vocs]
-        for v in cat['vocabulary']:
-            if v['japanese'] == 'いいえ。':
-                v['skip_on_semicolon'] = False
+        # Construct the vocabulary list
+        cat['vocabulary'] = []
+        for v in vocs:
+            card_data = {'japanese': v['jap'], 'english': v['eng'], 'kanji': v['kan']}
+            cat['vocabulary'].append(card_data)
     else:
         scats = []
         for stag in subtags:
@@ -342,8 +344,6 @@ os.makedirs('utils/script_output/L00', exist_ok=True)
 
 with open('utils/script_output/L00/01_greetings.yaml', 'w+') as o:
     yaml.dump(out_dict, o)
-
-
 
 ## 00 numbers
 vocab_1 = vocab[0]

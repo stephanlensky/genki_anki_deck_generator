@@ -8,15 +8,6 @@ sound_silence_threshold: 600
 cards:
   - category: Useful_Expressions
     vocabulary:
-      - japanese: かみ
-        english: hair
-        kanji: 髪
-      - japanese: くち
-        english: mouth
-        kanji: 口
-      - japanese: め
-        english: eye
-        kanji: 目
       - japanese: はな
         english: nose
         kanji: 鼻

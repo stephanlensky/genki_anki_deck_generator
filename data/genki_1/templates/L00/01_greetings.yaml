@@ -63,6 +63,7 @@ cards:
   - japanese: 〜です。
     english: I am ...
     kanji: ''
+    skip_sound: true
   - japanese: よろしく　おねがいします。
     english: Nice to meet you.
     kanji: ''

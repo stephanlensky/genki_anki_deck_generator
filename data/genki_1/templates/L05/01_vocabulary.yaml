@@ -138,10 +138,6 @@ cards:
   - japanese: およぐ
     english: to swim
     kanji: 泳ぐ
-  - japanese: きく
-    english: to listen; to hear (〜を); to ask (<i>person</i>&nbsp;に)
-    kanji: 聞く
-    skip_on_semicolon: 0
   - japanese: のる
     english: to ride; to board (〜に)
     kanji: 乗る
