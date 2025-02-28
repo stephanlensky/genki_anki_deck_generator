@@ -16,6 +16,7 @@ def num2kanji(num):
         return None
     return num2words(num, lang='ja')
 
+# todo: let's try not to do this
 def apply_hacks(cat, i, tag, stag=None):
     if i == 0 and tag == 'School':
         for v in cat['vocabulary']:
@@ -33,7 +34,7 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 2 and tag == 'U-verbs':
         for v in cat['vocabulary']:
             if v['japanese'] == 'きく':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
     if i == 3 and stag == 'People_and_Things':
         desk = cat['vocabulary'].pop(0)
         chair = cat['vocabulary'].pop(0)
@@ -42,10 +43,10 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 4 and tag == 'い-adjectives':
         for v in cat['vocabulary']:
             if v['japanese'] == 'さむい':
-                v['skip_on_semikolon'] = 2
+                v['skip_on_semicolon'] = 2
     if i == 4 and tag == 'U-verbs':
         ask = cat['vocabulary'].pop(0)
-        ask['skip_on_semikolon'] = 0
+        ask['skip_on_semicolon'] = 0
         cat['vocabulary'].insert(1, ask)
     if i == 5 and tag == 'Nouns':
         electricity = cat['vocabulary'].pop(0)
@@ -61,7 +62,7 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 5 and tag == 'U-verbs':
         for v in cat['vocabulary']:
             if v['japanese'] == 'やすむ':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
     if i == 6 and tag == 'Nouns':
         os = cat['vocabulary'].pop(0)
         ob = cat['vocabulary'].pop(0)
@@ -83,7 +84,7 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 7 and tag == 'Adverbs_and_Other_Expressions':
         for v in cat['vocabulary']:
             if v['english'] == 'not ... yet':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
     if i == 8 and tag == 'Nouns':
         lm = cat['vocabulary'].pop(0)
         ly = cat['vocabulary'].pop(0)
@@ -92,7 +93,7 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 8 and tag == 'Ru-verbs':
         for v in cat['vocabulary']:
             if v['japanese'] == 'でる':
-                v['skip_on_semikolon'] = 2
+                v['skip_on_semicolon'] = 2
     if i == 9 and tag == 'Nouns':
         d = cat['vocabulary'].pop(0)
         ty = cat['vocabulary'].pop(0)
@@ -105,15 +106,15 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 9 and tag == 'U-verbs':
         for v in cat['vocabulary']:
             if v['japanese'] == 'かかる':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
     if i == 9 and tag == 'Adverbs_and_Other_Expressions':
         for v in cat['vocabulary']:
             if v['japanese'] == 'どっち／どちら':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
             if v['japanese'] == '〜しゅうかん':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
             if v['japanese'] == '〜かげつ':
-                v['skip_on_semikolon'] = 1
+                v['skip_on_semicolon'] = 1
     if i == 10 and tag == 'Nouns':
         aus = cat['vocabulary'].pop(0)
         cat['vocabulary'].insert(1, aus)
@@ -127,11 +128,11 @@ def apply_hacks(cat, i, tag, stag=None):
     if i == 11 and tag == 'い-adjectives':
         for v in cat['vocabulary']:
             if v['japanese'] == 'せまい':
-                v['skip_on_semikolon'] = False
+                v['skip_on_semicolon'] = False
     if i == 11 and tag == 'Adverbs_and_Other_Expressions':
         for v in cat['vocabulary']:
             if v['japanese'] == 'もうすぐ':
-                v['skip_on_semikolon'] = 2
+                v['skip_on_semicolon'] = 2
 
     for v in cat['vocabulary']:
         if 'kanji' in v:
@@ -193,7 +194,7 @@ def get_out_dict(mayor, sound_file=None, minor=0):
         'skip_words': [],
         'skip_on_beginning': 2,
         'skip_with_new_category': True,
-        'skip_on_semikolon': True,
+        'skip_on_semicolon': True,
         'uid': 693904000 + mayor*100 + minor,
         'sound_silence_threshold': 600,
         'cards': [],
@@ -270,11 +271,11 @@ for i,deck in enumerate(vocab):
 
     out_dict = get_out_dict(i, vocab_sound_files[i])
     if i==0:
-        out_dict['skip_on_semikolon'] = False
+        out_dict['skip_on_semicolon'] = False
         out_dict['sound_silence_threshold'] = 1000
     # if i==2:
     #     out_dict['skip_on_beginning'] = 1
-    #     out_dict['skip_on_semikolon'] = False
+    #     out_dict['skip_on_semicolon'] = False
     if i==3:
         out_dict['sound_silence_threshold'] = 300
 
@@ -322,10 +323,11 @@ for t in tags:
     vocs = list(filter(lambda x: tag in x['tags'], tag_vocab))
     subtags = get_subtags(vocs, tag)
     if len(subtags) in [0,1]:
-        cat['vocabulary'] = [{'japanese': v['jap'], 'english': v['eng'], 'kanji': v['kan']} for v in vocs]
-        for v in cat['vocabulary']:
-            if v['japanese'] == 'いいえ。':
-                v['skip_on_semikolon'] = False
+        # Construct the vocabulary list
+        cat['vocabulary'] = []
+        for v in vocs:
+            card_data = {'japanese': v['jap'], 'english': v['eng'], 'kanji': v['kan']}
+            cat['vocabulary'].append(card_data)
     else:
         scats = []
         for stag in subtags:
@@ -342,8 +344,6 @@ os.makedirs('utils/script_output/L00', exist_ok=True)
 
 with open('utils/script_output/L00/01_greetings.yaml', 'w+') as o:
     yaml.dump(out_dict, o)
-
-
 
 ## 00 numbers
 vocab_1 = vocab[0]

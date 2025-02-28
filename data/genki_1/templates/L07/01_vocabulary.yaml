@@ -2,7 +2,7 @@ sound_file: Kaiwa_Bunpo_L07/K07_05.mp3
 skip_words: []
 skip_on_beginning: 2
 skip_with_new_category: true
-skip_on_semikolon: true
+skip_on_semicolon: true
 uid: 693904600
 sound_silence_threshold: 600
 cards:
@@ -17,12 +17,6 @@ cards:
   - japanese: おばあさん
     english: grandmother; old woman
     kanji: ''
-  - japanese: おにいさん
-    english: older brother
-    kanji: お兄さん
-  - japanese: おねえさん
-    english: older sister
-    kanji: お姉さん
   - japanese: ちち
     english: (my) father
     kanji: 父
@@ -35,12 +29,6 @@ cards:
   - japanese: あね
     english: (my) older sister
     kanji: 姉
-  - japanese: いもうと
-    english: younger sister
-    kanji: 妹
-  - japanese: おとうと
-    english: younger brother
-    kanji: 弟
   - japanese: きょうだい
     english: brothers and sisters
     kanji: 兄弟

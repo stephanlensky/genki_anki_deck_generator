@@ -1,7 +1,7 @@
 sound_file: Kaiwa_Bunpo_L11/K11_09.mp3
 skip_with_new_category: false
 skip_on_beginning: 1
-skip_on_semikolon: true
+skip_on_semicolon: true
 uid: 693905001
 sound_silence_threshold: 600
 cards:
@@ -40,9 +40,6 @@ cards:
   - japanese: はいゆう
     english: actor; actress
     kanji: 俳優
-  - japanese: かんごし
-    english: nurse
-    kanji: 看護師
   - japanese: シェフ
     english: chef
     kanji: ''

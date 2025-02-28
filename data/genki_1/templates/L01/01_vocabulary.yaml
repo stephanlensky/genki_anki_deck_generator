@@ -2,7 +2,7 @@ sound_file: Kaiwa_Bunpo_L01/K01_05.mp3
 skip_words: []
 skip_on_beginning: 2
 skip_with_new_category: true
-skip_on_semikolon: false
+skip_on_semicolon: false
 uid: 693904000
 sound_silence_threshold: 1000
 cards:
@@ -29,9 +29,6 @@ cards:
   - japanese: 〜ねんせい
     english: '... year student'
     kanji: 〜年生
-  - japanese: いちねんせい
-    english: first-year student
-    kanji: 一年生
   - japanese: せんこう
     english: major
     kanji: ''
@@ -66,9 +63,6 @@ cards:
   - japanese: 〜じ
     english: o'clock
     kanji: 時
-  - japanese: いちじ
-    english: 1 o'clock
-    kanji: ''
   - japanese: はん
     english: half
     kanji: 半
@@ -113,7 +107,7 @@ cards:
     english: um ...
     kanji: ''
   - japanese: はい
-    english: yes
+    english: yes (formal)
     kanji: ''
   - japanese: そうです
     english: That's right.
