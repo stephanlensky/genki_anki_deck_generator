@@ -39,6 +39,12 @@ cards:
     - japanese: あなた
       english: you
       kanji: ''
+    - japanese: いす
+      english: chair
+      kanji: ''
+    - japanese: つくえ
+      english: desk
+      kanji: 机
     - japanese: しゃしん
       english: picture; photograph
       kanji: 写真
@@ -49,7 +55,7 @@ cards:
       english: (term) paper
       kanji: ''
     - japanese: ごはん
-      english: (white) rice; meal
+      english: rice; meal
       kanji: ご飯
     - japanese: パン
       english: bread

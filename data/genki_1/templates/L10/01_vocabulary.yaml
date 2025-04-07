@@ -29,6 +29,9 @@ cards:
   - japanese: てんぷら
     english: tempura
     kanji: 天ぷら
+  - japanese: りんご
+    english: apple
+    kanji: ''
   - japanese: りょうり
     english: cuisine
     kanji: 料理
@@ -38,12 +41,18 @@ cards:
   - japanese: やきゅう
     english: baseball
     kanji: 野球
+  - japanese: いしゃ
+    english: doctor
+    kanji: 医者
   - japanese: おかねもち
     english: rich person
     kanji: お金持ち
   - japanese: ゆうめいじん
     english: celebrity
     kanji: 有名人
+  - japanese: かお
+    english: face
+    kanji: 顔
   - japanese: としうえ
     english: someone older
     kanji: 年上
@@ -86,6 +95,9 @@ cards:
   - japanese: せいかつ
     english: life; living
     kanji: 生活
+  - japanese: ことし
+    english: this year
+    kanji: 今年
 - category: い-adjectives
   vocabulary:
   - japanese: あたたかい

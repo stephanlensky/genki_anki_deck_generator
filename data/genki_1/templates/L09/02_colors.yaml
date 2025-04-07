@@ -8,6 +8,18 @@ sound_silence_threshold: 600
 cards:
 - category: Useful_Expressions
   vocabulary:
+  - japanese: くろい
+    english: black
+    kanji: 黒い
+  - japanese: しろい
+    english: white
+    kanji: 白い
+  - japanese: あかい
+    english: red
+    kanji: 赤い
+  - japanese: あおい
+    english: blue
+    kanji: 青い
   - japanese: きいろい
     english: yellow
     kanji: 黄色い

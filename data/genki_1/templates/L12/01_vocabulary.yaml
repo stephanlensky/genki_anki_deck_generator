@@ -8,9 +8,18 @@ sound_silence_threshold: 600
 cards:
 - category: Nouns
   vocabulary:
+  - japanese: おなか
+    english: stomach
+    kanji: ''
+  - japanese: あし
+    english: leg; foot
+    kanji: 足
   - japanese: のど
     english: throat
     kanji: ''
+  - japanese: は
+    english: tooth
+    kanji: 歯
   - japanese: インフルエンザ
     english: influenza
     kanji: ''
@@ -59,6 +68,9 @@ cards:
   - japanese: しあい
     english: match; game
     kanji: 試合
+  - japanese: せいじ
+    english: politics
+    kanji: 政治
   - japanese: せいせき
     english: grade (on a test, etc.)
     kanji: 成績
@@ -71,6 +83,9 @@ cards:
   - japanese: かれし
     english: boyfriend
     kanji: 彼氏
+  - japanese: いみ
+    english: meaning
+    kanji: 意味
 - category: い-adjectives
   vocabulary:
   - japanese: せまい

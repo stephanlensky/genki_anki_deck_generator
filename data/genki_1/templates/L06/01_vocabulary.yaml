@@ -35,12 +35,27 @@ cards:
   - japanese: エアコン
     english: air conditioner
     kanji: ''
+  - japanese: でんき
+    english: electricity; light
+    kanji: 電気
+  - japanese: まど
+    english: window
+    kanji: 窓
   - japanese: でんしゃ
     english: train
     kanji: 電車
   - japanese: くに
     english: country; place of origin
     kanji: 国
+  - japanese: こんしゅう
+    english: this week
+    kanji: 今週
+  - japanese: らいしゅう
+    english: next week
+    kanji: 来週
+  - japanese: らいねん
+    english: next year
+    kanji: 来年
   - japanese: よる
     english: night
     kanji: 夜

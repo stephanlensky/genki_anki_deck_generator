@@ -62,9 +62,6 @@ def extract_japanese_words_from_soundfile_and_save(dst_dir: Path, deck: Deck, sa
         if deck.only_japanese:
             skip_file = sound_index in deck.skip_words or vocab_index >= len(cards)
 
-        # Debug: Print skip_file status
-        print(f"Processing sound_index {sound_index}, skip_file={skip_file}")
-
         sound = words[sound_index]
         card_index = vocab_index // 2
         if deck.only_japanese:

@@ -62,6 +62,12 @@ cards:
   - japanese: こんど
     english: near future
     kanji: 今度
+  - japanese: せんげつ
+    english: last month
+    kanji: 先月
+  - japanese: きょねん
+    english: last year
+    kanji: 去年
 - category: い-adjectives
   vocabulary:
   - japanese: あおい

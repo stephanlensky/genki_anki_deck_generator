@@ -35,9 +35,21 @@ cards:
   - japanese: けさ
     english: this morning
     kanji: 今朝
+  - japanese: あさって
+    english: the day after tomorrow
+    kanji: ''
   - japanese: まいしゅう
     english: every week
     kanji: 毎週
+  - japanese: こんげつ
+    english: this month
+    kanji: 今月
+  - japanese: らいげつ
+    english: next month
+    kanji: 来月
+  - japanese: かいしゃいん
+    english: office worker
+    kanji: 会社員
   - japanese: しごと
     english: job; work; occupation
     kanji: 仕事

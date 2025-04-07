@@ -8,6 +8,9 @@ sound_silence_threshold: 400
 cards:
 - category: Numbers
   vocabulary:
+  - japanese: ひゃく
+    english: '100'
+    kanji: 百
   - japanese: にひゃく
     english: '200'
     kanji: 二百

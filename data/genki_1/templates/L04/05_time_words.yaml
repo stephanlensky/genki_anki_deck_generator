@@ -6,12 +6,27 @@ cards:
   - japanese: おととい
     english: the day before yesterday
     kanji: ''
+  - japanese: きのう
+    english: yesterday
+    kanji: 昨日
+  - japanese: せんしゅう
+    english: last week
+    kanji: 先週
+  - japanese: きょう
+    english: today
+    kanji: 今日
+  - japanese: あした
+    english: tomorrow
+    kanji: 明日
   - japanese: あさって
     english: the day after tomorrow
     kanji: ''
   - japanese: にしゅうかんまえ
     english: two weeks ago
     kanji: 二週間前
+  - japanese: せんしゅう
+    english: last week
+    kanji: 先週
   - japanese: こんしゅう
     english: this week
     kanji: 今週
