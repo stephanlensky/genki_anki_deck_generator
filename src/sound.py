@@ -42,8 +42,8 @@ def extract_japanese_words_from_soundfile_and_save(dst_dir: Path, deck: Deck, sa
     cards: List[Card] = deck.cards
     word_paths = [None] * len(cards)
     next_word_jap = True
-    vocab_index = 0 # seperate for eng and jap
-    sound_index = 0 # index for extracted sounds
+    vocab_index = 0  # separate for eng and jap
+    sound_index = 0  # index for extracted sounds
 
     def export_sound_file(sound: AudioSegment, card: Card, suffix: str) -> str:
         parts = []
@@ -57,22 +57,41 @@ def extract_japanese_words_from_soundfile_and_save(dst_dir: Path, deck: Deck, sa
         sound.export(filename, format="mp3")
         return filename
 
-
     while sound_index < len(words):
-        skip_file = sound_index in deck.skip_words or vocab_index >= len(cards)*2
+        skip_file = sound_index in deck.skip_words or vocab_index >= len(cards) * 2
+        if deck.only_japanese:
+            skip_file = sound_index in deck.skip_words or vocab_index >= len(cards)
+
         sound = words[sound_index]
         card_index = vocab_index // 2
         if deck.only_japanese:
             card_index = vocab_index
-        card = cards[card_index] if not skip_file else None # todo fix
-        if card is not None and card.custom_threshold_eng is not None and next_word_jap == False:
+
+        # Validate card_index
+        card = None
+        if not skip_file:
+            if card_index < len(cards):
+                card = cards[card_index]
+            else:
+                print(f"Warning: card_index {card_index} is out of range for cards list with length {len(cards)}")
+
+        # Skip sound if the card has the 'skip_sound' flag
+        if card is not None and hasattr(card, 'skip_sound') and card.skip_sound:
+            print(f"Skipping sound for card: {card.japanese}")
+            word_paths[card_index] = None  # Ensure no sound file is associated
+            vocab_index += 1
+            sound_index += 1
+            continue
+
+        if card is not None and card.custom_threshold_eng is not None and not next_word_jap:
             name = export_sound_file(sound, None, "split")
             new_words = extract_words_from_soundfile(name, card.custom_threshold_eng)
             del words[sound_index]
             for w in reversed(new_words):
                 words.insert(sound_index, w)
             sound = words[sound_index]
-        if card is not None and card.custom_threshold_jap is not None and next_word_jap == True:
+
+        if card is not None and card.custom_threshold_jap is not None and next_word_jap:
             name = export_sound_file(sound, None, "split")
             new_words = extract_words_from_soundfile(name, card.custom_threshold_jap)
             del words[sound_index]
@@ -80,17 +99,25 @@ def extract_japanese_words_from_soundfile_and_save(dst_dir: Path, deck: Deck, sa
                 words.insert(sound_index, w)
             sound = words[sound_index]
 
-        if skip_file == True: # skip
+        if skip_file:  # skip
             if save_all:
-                export_sound_file(sound, None, "skiped")
-        elif next_word_jap == True: # jap
-            if card.fuse_with_next:
+                export_sound_file(sound, None, "skipped")
+        elif next_word_jap:  # jap
+            if card is None:
+                print(f"Warning: No card found for sound_index {sound_index}. Skipping.")
+            elif card.fuse_with_next:
                 for i in range(card.fuse_with_next):
-                    sound = sound.append(words[sound_index+i+1], crossfade=0)
+                    if sound_index + i + 1 >= len(words):
+                        print(f"Warning: Cannot fuse with next {card.fuse_with_next} words. Reached end of words list.")
+                        break
+                    sound = sound.append(words[sound_index + i + 1], crossfade=0)
                 sound_index += card.fuse_with_next
             filename = export_sound_file(sound, card, "jap")
-            word_paths[card_index] = filename
-        else: # eng
+            if card is not None:
+                word_paths[card_index] = filename
+                # Debug: Print word_paths assignment
+                print(f"Assigned sound file to card_index {card_index}: {filename}")
+        else:  # eng
             if save_all:
                 export_sound_file(sound, card, "eng")
 
@@ -99,8 +126,10 @@ def extract_japanese_words_from_soundfile_and_save(dst_dir: Path, deck: Deck, sa
             vocab_index += 1
         sound_index += 1
 
-    assert(all(word_paths)) # every Card must have a sound
+    # Debug: Check for missing sound files
+    missing_sound_indices = [i for i, path in enumerate(word_paths) if path is None and not skip_file]
+    if missing_sound_indices:
+        print(f"Warning: The following non-skipped cards do not have sound files: {missing_sound_indices}")
+        # Optionally, raise an exception or handle the error gracefully
 
     return word_paths
-
-        

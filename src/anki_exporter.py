@@ -92,28 +92,42 @@ def gen_deck(deck: Deck, deckpath: str, model: genanki.Model) -> genanki.Deck:
                 str(i),
                 f'{full_name}_{i}'
             ],
-            tags=c.tags
-            )
+            tags=[tag.replace(" ", "_") for tag in c.tags]  # Fix: Replace spaces in tags
+        )
         i+=1
         anki_deck.add_note(note)
     return anki_deck
     
-def walk_deck(decklike, deckpath: str, model: genanki.Model, anki_decks:[], sound_files:[]):
+def walk_deck(decklike, model: genanki.Model, anki_deck: genanki.Deck, sound_files: []):
     if isinstance(decklike, MetaDeck):
-        metadeck: MetaDeck = decklike
-        new_deckpath = f"{deckpath}::{metadeck.name}" if deckpath != '' else metadeck.name
-        for deck in metadeck.decks:
-            walk_deck(deck, new_deckpath, model, anki_decks, sound_files)
+        # MetaDeck represents a full book, so it already has a corresponding anki_deck.
+        for deck in decklike.decks:
+            walk_deck(deck, model, anki_deck, sound_files)
     else:
-        deck:Deck = decklike
-        anki_deck = gen_deck(deck, deckpath, model)
-        sound_files.extend([c.sound_file for c in deck.cards if c.sound_file is not None])
-        anki_decks.append(anki_deck)
+        deck: Deck = decklike
+        for i, c in enumerate(deck.cards):
+            note = GenkiNote(
+                model=model,
+                fields=[
+                    c.japanese, 
+                    c.kanjis, 
+                    "", 
+                    c.english, 
+                    c.kanjis_meanings,
+                    f"[sound:{c.sound_file.name}]" if c.sound_file else "",
+                    str(i),
+                    f'{deck.name}_{i}'
+                ],
+                tags=[tag.replace(" ", "_") for tag in c.tags]  # Preserve tags
+            )
+            anki_deck.add_note(note)
+            if c.sound_file:
+                sound_files.append(c.sound_file)
+
+
 
 
 def export_to_anki(decks: List):
-    
-    
     anki_model = genanki.Model(
         1561628563,
         'Simple Model',
@@ -140,17 +154,26 @@ def export_to_anki(decks: List):
             },
         ],
         css=css
-        )
-    anki_decks = []
-    sound_files = []
-    for d in decks:
-        walk_deck(d, "", anki_model, anki_decks, sound_files)
-    
-    anki_package = genanki.Package(anki_decks)
+    )
 
-    # font
+    anki_decks = {}  # Store decks by book name
+    sound_files = []
+
+    for d in decks:
+        if isinstance(d, MetaDeck):
+            # Each book gets its own unique deck ID
+            deck_id = hash(d.name) % (2**31)  # Ensure ID fits in Anki’s integer limit
+            anki_deck = genanki.Deck(deck_id, d.name)
+            anki_decks[d.name] = anki_deck
+            walk_deck(d, anki_model, anki_deck, sound_files)
+
+    # Generate an Anki package with all book decks
+    anki_package = genanki.Package(list(anki_decks.values()))
+
+    # Add font file
     sound_files.append("data/fonts/_NotoSansCJKjp-Regular.woff2")
 
     anki_package.media_files = sound_files
-
     anki_package.write_to_file('genki.apkg')
+
+
