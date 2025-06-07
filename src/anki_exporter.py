@@ -9,26 +9,26 @@ html_kanji_kana = """
 <br>
 """
 
-html_sound="""
+html_sound = """
 {{sound}}
 <br>
 """
 
-html_frontside="""
+html_frontside = """
 {{FrontSide}}
 """
 
-html_meaning="""
+html_meaning = """
 <font lang="jp" size="4px" color="#C0C0C0">Meaning: </font>
 <br>
 """
 
-html_english="""
+html_english = """
 <font lang="jp" size="15px"><span class="text">{{english}}</span></font>
 <br>
 """
 
-html_kanji_meaning="""
+html_kanji_meaning = """
 <br>
 {{#kanji_meaning}}
 <font lang="jp" size="4px" color="#C0C0C0">Kanji Meaning: </font>
@@ -40,7 +40,7 @@ html_kanji_meaning="""
 {{/kanji_meaning}}
 """
 
-css="""
+css = """
 
 .card {
   font-family: "Noto Sans Japanese";
@@ -63,41 +63,43 @@ css="""
 class GenkiNote(genanki.Note):
     @property
     def guid(self):
-        return genanki.guid_for(self.fields[7]) # uid
+        return genanki.guid_for(self.fields[7])  # uid
 
     @property
     def sort_field(self):
-        return self.fields[7] # sort_id
+        return self.fields[7]  # sort_id
 
-    
     @sort_field.setter
     def sort_field(self, value):
         pass
-            
+
 
 def gen_deck(deck: Deck, deckpath: str, model: genanki.Model) -> genanki.Deck:
-    full_name = f'{deckpath}::{deck.name}'
+    full_name = f"{deckpath}::{deck.name}"
     anki_deck = genanki.Deck(deck.uid, full_name)
     i = 0
     for c in deck.cards:
         note = GenkiNote(
             model=model,
             fields=[
-                c.japanese, 
-                c.kanjis, 
-                "", 
-                c.english, 
+                c.japanese,
+                c.kanjis,
+                "",
+                c.english,
                 c.kanjis_meanings,
                 f"[sound:{c.sound_file.name}]" if c.sound_file is not None else "",
                 str(i),
-                f'{full_name}_{i}'
+                f"{full_name}_{i}",
             ],
-            tags=[tag.replace(" ", "_") for tag in c.tags]  # Fix: Replace spaces in tags
+            tags=[
+                tag.replace(" ", "_") for tag in c.tags
+            ],  # Fix: Replace spaces in tags
         )
-        i+=1
+        i += 1
         anki_deck.add_note(note)
     return anki_deck
-    
+
+
 def walk_deck(decklike, model: genanki.Model, anki_deck: genanki.Deck, sound_files: []):
     if isinstance(decklike, MetaDeck):
         # MetaDeck represents a full book, so it already has a corresponding anki_deck.
@@ -109,51 +111,56 @@ def walk_deck(decklike, model: genanki.Model, anki_deck: genanki.Deck, sound_fil
             note = GenkiNote(
                 model=model,
                 fields=[
-                    c.japanese, 
-                    c.kanjis, 
-                    "", 
-                    c.english, 
+                    c.japanese,
+                    c.kanjis,
+                    "",
+                    c.english,
                     c.kanjis_meanings,
                     f"[sound:{c.sound_file.name}]" if c.sound_file else "",
                     str(i),
-                    f'{deck.name}_{i}'
+                    f"{deck.name}_{i}",
                 ],
-                tags=[tag.replace(" ", "_") for tag in c.tags]  # Preserve tags
+                tags=[tag.replace(" ", "_") for tag in c.tags],  # Preserve tags
             )
             anki_deck.add_note(note)
             if c.sound_file:
                 sound_files.append(c.sound_file)
 
 
-
-
 def export_to_anki(decks: List):
     anki_model = genanki.Model(
         1561628563,
-        'Simple Model',
+        "Simple Model",
         fields=[
-            {'name': 'japanese_kana'},
-            {'name': 'kanjis'},
-            {'name': 'type'},
-            {'name': 'english'},
-            {'name': 'kanji_meaning'},
-            {'name': 'sound'},
-            {'name': 'sort_id'},
-            {'name': 'uid'},
+            {"name": "japanese_kana"},
+            {"name": "kanjis"},
+            {"name": "type"},
+            {"name": "english"},
+            {"name": "kanji_meaning"},
+            {"name": "sound"},
+            {"name": "sort_id"},
+            {"name": "uid"},
         ],
         templates=[
             {
-            'name': 'japanese -> english',
-            'qfmt': html_kanji_kana + html_sound,
-            'afmt': html_frontside + html_meaning + html_english + html_kanji_meaning,
+                "name": "japanese -> english",
+                "qfmt": html_kanji_kana + html_sound,
+                "afmt": html_frontside
+                + html_meaning
+                + html_english
+                + html_kanji_meaning,
             },
             {
-            'name': 'english -> japanese',
-            'qfmt': html_english,
-            'afmt': html_frontside + html_meaning + html_kanji_kana + html_kanji_meaning + html_sound,
+                "name": "english -> japanese",
+                "qfmt": html_english,
+                "afmt": html_frontside
+                + html_meaning
+                + html_kanji_kana
+                + html_kanji_meaning
+                + html_sound,
             },
         ],
-        css=css
+        css=css,
     )
 
     anki_decks = {}  # Store decks by book name
@@ -174,6 +181,4 @@ def export_to_anki(decks: List):
     sound_files.append("data/fonts/_NotoSansCJKjp-Regular.woff2")
 
     anki_package.media_files = sound_files
-    anki_package.write_to_file('genki.apkg')
-
-
+    anki_package.write_to_file("genki.apkg")

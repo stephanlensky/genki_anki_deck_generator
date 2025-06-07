@@ -10,27 +10,29 @@ class Card:
         self.english: str = english
         self.sound_file: str = None
         self.skip_sound: bool = skip_sound
-        self.kanjis:str = kanjis if kanjis != japanese else ""
+        self.kanjis: str = kanjis if kanjis != japanese else ""
         self.kanjis_meanings: List[str] = ""
         self.category: str = ""
         self.tags: List[str] = []
         self.fuse_with_next: int = 0
         self.custom_threshold_eng: int = 0
         self.custom_threshold_jap: int = 0
-    
+
     def get_beautyfied_english_name(self):
-        name = self.english.\
-            replace(" ", "_").\
-            replace("/", "").\
-            replace(".", "").\
-            replace(";", "").\
-            replace("__", "_").\
-            replace("__", "_").\
-            replace("'", "")
-        return ''.join(e for e in name if e.isalnum() or e == '_')
+        name = (
+            self.english.replace(" ", "_")
+            .replace("/", "")
+            .replace(".", "")
+            .replace(";", "")
+            .replace("__", "_")
+            .replace("__", "_")
+            .replace("'", "")
+        )
+        return "".join(e for e in name if e.isalnum() or e == "_")
 
     def validate(self):
         return True
+
 
 class Deck:
     def __init__(self):
@@ -46,18 +48,20 @@ class Deck:
         self.only_japanese: bool = False
 
     def validate(self):
-        return True # todo
-
+        return True  # todo
 
     def load_sound_files(self, resources: Path, media_output_path: Path):
         from src.sound import extract_japanese_words_from_soundfile_and_save
 
-        if self.sound_file == None: return
+        if self.sound_file == None:
+            return
 
-        #names = [c.english.replace(" ", "_").replace("/", "").replace(".", "").replace(";", "").replace("__", "_").replace("__", "_").replace("'", "") for c in self.cards]
-        #names = [self.name.replace(" ", "_") + '_' + ''.join(e for e in c if e.isalnum() or c == '_') for c in names]
-        #sound_files = extract_japanese_words_from_soundfile_and_save(self.sound_file, media_output_path, names, skip=self.skip_words, save_all=True, sound_silence_threshold=self.sound_silence_threshold, only_japanese=self.only_japanese, fuse_list=[c.fuse_with_next for c in self.cards])
-        sound_files = extract_japanese_words_from_soundfile_and_save(media_output_path, self, save_all=True)
+        # names = [c.english.replace(" ", "_").replace("/", "").replace(".", "").replace(";", "").replace("__", "_").replace("__", "_").replace("'", "") for c in self.cards]
+        # names = [self.name.replace(" ", "_") + '_' + ''.join(e for e in c if e.isalnum() or c == '_') for c in names]
+        # sound_files = extract_japanese_words_from_soundfile_and_save(self.sound_file, media_output_path, names, skip=self.skip_words, save_all=True, sound_silence_threshold=self.sound_silence_threshold, only_japanese=self.only_japanese, fuse_list=[c.fuse_with_next for c in self.cards])
+        sound_files = extract_japanese_words_from_soundfile_and_save(
+            media_output_path, self, save_all=True
+        )
 
         for c, sf in zip(self.cards, sound_files):
             c.sound_file = sf
@@ -70,15 +74,20 @@ class Deck:
     def load_kanji_meaning_data(self):
         for c in self.cards:
             if c.kanjis != "":
-                meanings = [fetch_kanji_meanings(k) for k in filter(lambda x: x != '.', c.kanjis)]
+                meanings = [
+                    fetch_kanji_meanings(k)
+                    for k in filter(lambda x: x != ".", c.kanjis)
+                ]
                 kanji_meaning_string = ""
-                last_has_meaning = True # so that no '-' gets insterted at the beginning
+                last_has_meaning = (
+                    True  # so that no '-' gets insterted at the beginning
+                )
                 for meaning, found_meaning in meanings:
                     if last_has_meaning == False and found_meaning == True:
-                        kanji_meaning_string += ' - '
+                        kanji_meaning_string += " - "
                     kanji_meaning_string += meaning
                     if found_meaning and meaning is not meanings[-1][0]:
-                        kanji_meaning_string += ' - '
+                        kanji_meaning_string += " - "
                     last_has_meaning = found_meaning
                 c.kanjis_meanings = kanji_meaning_string
 
@@ -91,7 +100,7 @@ class Deck:
                 japanese=e["japanese"],
                 english=e["english"],
                 kanjis=e.get("kanji", ""),
-                skip_sound=e.get("skip_sound", False)  # Add this line
+                skip_sound=e.get("skip_sound", False),  # Add this line
             )
             card.category = cat
             card.tags.append(cat)
@@ -101,8 +110,19 @@ class Deck:
             if subtag is not None:
                 card.tags.append(subtag)
             deck.cards.append(card)
-            if "skip_on_semicolon" not in e and deck.skip_on_semicolon or "skip_on_semicolon" in e and (e["skip_on_semicolon"] == True or (type(e["skip_on_semicolon"]) == int and e["skip_on_semicolon"] != 0)):
-                skips = card.english.replace("&nbsp;", "").count(';')
+            if (
+                "skip_on_semicolon" not in e
+                and deck.skip_on_semicolon
+                or "skip_on_semicolon" in e
+                and (
+                    e["skip_on_semicolon"] == True
+                    or (
+                        type(e["skip_on_semicolon"]) == int
+                        and e["skip_on_semicolon"] != 0
+                    )
+                )
+            ):
+                skips = card.english.replace("&nbsp;", "").count(";")
                 if "skip_on_semicolon" in e and type(e["skip_on_semicolon"]) == int:
                     skips = e["skip_on_semicolon"]
                 for _ in range(skips):
@@ -131,20 +151,21 @@ class Deck:
         for c in doc["cards"]:
             if deck.skip_with_new_category:
                 deck.skip_words.append(skip_index)
-                skip_index = skip_index+1
+                skip_index = skip_index + 1
             cat = c.get("category", "")
-            
+
             if "category" in c["vocabulary"][0]:
                 for s in c["vocabulary"]:
                     if deck.skip_with_new_category:
                         deck.skip_words.append(skip_index)
-                        skip_index = skip_index+1
+                        skip_index = skip_index + 1
                     scat = s.get("category", "")
                     skip_index = Deck.parse_vocab(scat, deck, cat, s, skip_index)
             else:
                 skip_index = Deck.parse_vocab(None, deck, cat, c, skip_index)
-            
+
         return deck
+
 
 class MetaDeck:
     def __init__(self):
