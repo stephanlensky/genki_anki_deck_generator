@@ -1,0 +1,236 @@
+tags:
+- Genki_1
+- Lesson_10
+- 01_Vocabulary
+vocabulary:
+- tags:
+  - Nouns
+  vocabulary:
+  - japanese: きせつ
+    english: season
+    kanji: 季節
+    sound_file: Kaiwa_Bunpo_L10/K10_05/3.mp3
+  - japanese: はる
+    english: spring
+    kanji: 春
+    sound_file: Kaiwa_Bunpo_L10/K10_05/5.mp3
+  - japanese: あき
+    english: fall
+    kanji: 秋
+    sound_file: Kaiwa_Bunpo_L10/K10_05/7.mp3
+  - japanese: ぎゅうにゅう
+    english: milk
+    kanji: 牛乳
+    sound_file: Kaiwa_Bunpo_L10/K10_05/9.mp3
+  - japanese: ケーキ
+    english: cake
+    sound_file: Kaiwa_Bunpo_L10/K10_05/11.mp3
+  - japanese: すし
+    english: sushi
+    sound_file: Kaiwa_Bunpo_L10/K10_05/13.mp3
+  - japanese: てんぷら
+    english: tempura
+    kanji: 天ぷら
+    sound_file: Kaiwa_Bunpo_L10/K10_05/15.mp3
+  - japanese: りんご
+    english: apple
+    sound_file: Kaiwa_Bunpo_L10/K10_05/17.mp3
+  - japanese: りょうり
+    english: cuisine
+    kanji: 料理
+    sound_file: Kaiwa_Bunpo_L10/K10_05/19.mp3
+  - japanese: サッカー
+    english: soccer
+    sound_file: Kaiwa_Bunpo_L10/K10_05/21.mp3
+  - japanese: やきゅう
+    english: baseball
+    kanji: 野球
+    sound_file: Kaiwa_Bunpo_L10/K10_05/23.mp3
+  - japanese: いしゃ
+    english: doctor
+    kanji: 医者
+    sound_file: Kaiwa_Bunpo_L10/K10_05/25.mp3
+  - japanese: おかねもち
+    english: rich person
+    kanji: お金持ち
+    sound_file: Kaiwa_Bunpo_L10/K10_05/27.mp3
+  - japanese: ゆうめいじん
+    english: celebrity
+    kanji: 有名人
+    sound_file: Kaiwa_Bunpo_L10/K10_05/29.mp3
+  - japanese: かお
+    english: face
+    kanji: 顔
+    sound_file: Kaiwa_Bunpo_L10/K10_05/31.mp3
+  - japanese: としうえ
+    english: someone older
+    kanji: 年上
+    sound_file: Kaiwa_Bunpo_L10/K10_05/33.mp3
+  - japanese: えき
+    english: station
+    kanji: 駅
+    sound_file: Kaiwa_Bunpo_L10/K10_05/35.mp3
+  - japanese: しんかんせん
+    english: Shinkansen; "Bullet Train"
+    kanji: 新幹線
+    sound_file: Kaiwa_Bunpo_L10/K10_05/37.mp3
+  - japanese: ちかてつ
+    english: subway
+    kanji: 地下鉄
+    sound_file: Kaiwa_Bunpo_L10/K10_05/39.mp3
+  - japanese: ふね
+    english: ship; boat
+    kanji: 船
+    sound_file: Kaiwa_Bunpo_L10/K10_05/41.mp3
+  - japanese: ひこうき
+    english: airplane
+    kanji: 飛行機
+    sound_file: Kaiwa_Bunpo_L10/K10_05/43.mp3
+  - japanese: よやく
+    english: reservation
+    kanji: 予約
+    sound_file: Kaiwa_Bunpo_L10/K10_05/45.mp3
+  - japanese: ツアー
+    english: tour
+    sound_file: Kaiwa_Bunpo_L10/K10_05/47.mp3
+  - japanese: どうぶつえん
+    english: zoo
+    kanji: 動物園
+    sound_file: Kaiwa_Bunpo_L10/K10_05/49.mp3
+  - japanese: じかん
+    english: time
+    kanji: 時間
+    sound_file: Kaiwa_Bunpo_L10/K10_05/51.mp3
+  - japanese: せかい
+    english: world
+    kanji: 世界
+    sound_file: Kaiwa_Bunpo_L10/K10_05/53.mp3
+  - japanese: びよういん
+    english: beauty parlor
+    kanji: 美容院
+    sound_file: Kaiwa_Bunpo_L10/K10_05/55.mp3
+  - japanese: てぶくろ
+    english: gloves
+    kanji: 手袋
+    sound_file: Kaiwa_Bunpo_L10/K10_05/57.mp3
+  - japanese: せいかつ
+    english: life; living
+    kanji: 生活
+    sound_file: Kaiwa_Bunpo_L10/K10_05/59.mp3
+  - japanese: ことし
+    english: this year
+    kanji: 今年
+    sound_file: Kaiwa_Bunpo_L10/K10_05/61.mp3
+- tags:
+  - い-adjectives
+  vocabulary:
+  - japanese: あたたかい
+    english: warm
+    kanji: 暖かい
+    sound_file: Kaiwa_Bunpo_L10/K10_05/63.mp3
+  - japanese: すずしい
+    english: cool (weather - not used for things)
+    kanji: 涼しい
+    sound_file: Kaiwa_Bunpo_L10/K10_05/65.mp3
+  - japanese: つめたい
+    english: cold (things/people)
+    kanji: 冷たい
+    sound_file: Kaiwa_Bunpo_L10/K10_05/67.mp3
+  - japanese: おそい
+    english: slow; late
+    kanji: 遅い
+    sound_file: Kaiwa_Bunpo_L10/K10_05/69.mp3
+  - japanese: ねむい
+    english: sleepy
+    kanji: 眠い
+    sound_file: Kaiwa_Bunpo_L10/K10_05/71.mp3
+- tags:
+  - な-adjectives
+  vocabulary:
+  - japanese: かんたん（な）
+    english: easy; simple
+    kanji: 簡単
+    sound_file: Kaiwa_Bunpo_L10/K10_05/73.mp3
+- tags:
+  - U-verbs
+  vocabulary:
+  - japanese: かかる
+    english: to take (amount of time/money) (<i>no particle</i>)
+    sound_file: Kaiwa_Bunpo_L10/K10_05/76.mp3
+  - japanese: とまる
+    english: to stay (at a hotel, etc.) (〜に)
+    kanji: 泊まる
+    sound_file: Kaiwa_Bunpo_L10/K10_05/78.mp3
+  - japanese: なる
+    english: to become
+    sound_file: Kaiwa_Bunpo_L10/K10_05/80.mp3
+- tags:
+  - Ru-verbs
+  vocabulary:
+  - japanese: きめる
+    english: to decide (〜を)
+    kanji: 決める
+    sound_file: Kaiwa_Bunpo_L10/K10_05/82.mp3
+- tags:
+  - Irregular_Verbs
+  vocabulary:
+  - japanese: ごろごろする
+    english: to chill out at home; to stay home and do nothing
+    sound_file: Kaiwa_Bunpo_L10/K10_05/85.mp3
+  - japanese: りょこうする
+    english: to travel
+    kanji: 旅行する
+    sound_file: Kaiwa_Bunpo_L10/K10_05/87.mp3
+  - japanese: れんしゅうする
+    english: to practice (〜を)
+    kanji: 練習する
+    sound_file: Kaiwa_Bunpo_L10/K10_05/89.mp3
+- tags:
+  - Adverbs_and_Other_Expressions
+  vocabulary:
+  - japanese: いちばん
+    english: best
+    kanji: 一番
+    sound_file: Kaiwa_Bunpo_L10/K10_05/91.mp3
+  - japanese: どっち／どちら
+    english: which
+    sound_file: Kaiwa_Bunpo_L10/K10_05/93.mp3
+  - japanese: はやく
+    english: (do something) early; fast
+    kanji: 早く／速く
+    sound_file: Kaiwa_Bunpo_L10/K10_05/95.mp3
+  - japanese: あるいて
+    english: on foot
+    kanji: 歩いて
+    sound_file: Kaiwa_Bunpo_L10/K10_05/97.mp3
+  - japanese: 〜で
+    english: by (means of transportation); with (a tool)
+    sound_file: Kaiwa_Bunpo_L10/K10_05/99.mp3
+  - japanese: どうやって
+    english: how; by what means
+    sound_file: Kaiwa_Bunpo_L10/K10_05/101.mp3
+  - japanese: どのぐらい
+    english: how much; how long
+    sound_file: Kaiwa_Bunpo_L10/K10_05/103.mp3
+  - japanese: 〜しゅうかん
+    english: for ... weeks
+    kanji: 〜週間
+    sound_file: Kaiwa_Bunpo_L10/K10_05/105.mp3
+  - japanese: 〜かげつ
+    english: for ... months
+    kanji: 〜か月
+    sound_file: Kaiwa_Bunpo_L10/K10_05/107.mp3
+  - japanese: 〜ねん
+    english: '... years'
+    kanji: 〜年
+    sound_file: Kaiwa_Bunpo_L10/K10_05/109.mp3
+  - japanese: このごろ
+    english: these days
+    sound_file: Kaiwa_Bunpo_L10/K10_05/111.mp3
+  - japanese: 〜ご
+    english: in ... time; after ...
+    kanji: 〜後
+    sound_file: Kaiwa_Bunpo_L10/K10_05/113.mp3
+  - japanese: 〜か〜
+    english: or
+    sound_file: Kaiwa_Bunpo_L10/K10_05/115.mp3

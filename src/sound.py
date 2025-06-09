@@ -1,9 +1,11 @@
+import os
+from pathlib import Path
+from typing import List
+
+from cachier import cachier
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
-import os
-from typing import List
-from pathlib import Path
-from cachier import cachier
+
 from src.data import Card, Deck
 
 
@@ -18,9 +20,7 @@ def detect_leading_silence(sound, silence_threshold=-50.0, chunk_size=10):
     trim_ms = 0  # ms
 
     assert chunk_size > 0  # to avoid infinite loop
-    while sound[
-        trim_ms : trim_ms + chunk_size
-    ].dBFS < silence_threshold and trim_ms < len(sound):
+    while sound[trim_ms : trim_ms + chunk_size].dBFS < silence_threshold and trim_ms < len(sound):
         trim_ms += chunk_size
 
     return trim_ms
@@ -92,11 +92,7 @@ def extract_japanese_words_from_soundfile_and_save(
             sound_index += 1
             continue
 
-        if (
-            card is not None
-            and card.custom_threshold_eng is not None
-            and not next_word_jap
-        ):
+        if card is not None and card.custom_threshold_eng is not None and not next_word_jap:
             name = export_sound_file(sound, None, "split")
             new_words = extract_words_from_soundfile(name, card.custom_threshold_eng)
             del words[sound_index]
@@ -117,9 +113,7 @@ def extract_japanese_words_from_soundfile_and_save(
                 export_sound_file(sound, None, "skipped")
         elif next_word_jap:  # jap
             if card is None:
-                print(
-                    f"Warning: No card found for sound_index {sound_index}. Skipping."
-                )
+                print(f"Warning: No card found for sound_index {sound_index}. Skipping.")
             elif card.fuse_with_next:
                 for i in range(card.fuse_with_next):
                     if sound_index + i + 1 >= len(words):

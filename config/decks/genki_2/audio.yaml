@@ -1,0 +1,230 @@
+audio:
+- sound_file: Kaiwa_Bunpo_L13/K13_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    14:
+      fuse_with_next: 1
+    39:
+      fuse_with_next: 1
+    41:
+      fuse_with_next: 1
+    45:
+      fuse_with_next: 1
+    63:
+      fuse_with_next: 1
+    65:
+      fuse_with_next: 1
+    67:
+      fuse_with_next: 1
+    69:
+      fuse_with_next: 1
+    78:
+      fuse_with_next: 1
+    83:
+      fuse_with_next: 1
+    87:
+      fuse_with_next: 1
+    92:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L14/K14_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    10:
+      fuse_with_next: 1
+    12:
+      fuse_with_next: 1
+    16:
+      fuse_with_next: 1
+    18:
+      fuse_with_next: 1
+    48:
+      fuse_with_next: 1
+    62:
+      fuse_with_next: 1
+    64:
+      fuse_with_next: 1
+    76:
+      fuse_with_next: 1
+    80:
+      fuse_with_next: 1
+    84:
+      fuse_with_next: 1
+    90:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L15/K15_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    6:
+      fuse_with_next: 1
+    8:
+      fuse_with_next: 2
+    57:
+      fuse_with_next: 1
+    67:
+      fuse_with_next: 1
+    75:
+      fuse_with_next: 1
+    97:
+      fuse_with_next: 1
+    99:
+      fuse_with_next: 1
+    112:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L16/K16_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    14:
+      fuse_with_next: 2
+    52:
+      fuse_with_next: 1
+    54:
+      fuse_with_next: 1
+    64:
+      fuse_with_next: 1
+    90:
+      fuse_with_next: 1
+    102:
+      fuse_with_next: 1
+    105:
+      fuse_with_next: 1
+    112:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L17/K17_05.mp3
+  sound_silence_threshold: 600
+  overrides:
+    6:
+      fuse_with_next: 3
+    10:
+      fuse_with_next: 1
+    28:
+      fuse_with_next: 1
+    67:
+      fuse_with_next: 1
+    73:
+      fuse_with_next: 1
+    93:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L18/K18_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    50:
+      fuse_with_next: 1
+    52:
+      fuse_with_next: 1
+    62:
+      fuse_with_next: 1
+    74:
+      fuse_with_next: 1
+    87:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L19/K19_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    22:
+      fuse_with_next: 1
+    24:
+      fuse_with_next: 1
+    36:
+      fuse_with_next: 2
+    38:
+      fuse_with_next: 2
+    66:
+      fuse_with_next: 1
+    91:
+      fuse_with_next: 1
+    106:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L20/K20_05.mp3
+  sound_silence_threshold: 600
+  overrides:
+    40:
+      fuse_with_next: 1
+    44:
+      fuse_with_next: 1
+    69:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L21/K21_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    4:
+      fuse_with_next: 1
+    6:
+      fuse_with_next: 1
+    14:
+      fuse_with_next: 1
+    27:
+      fuse_with_next: 1
+    29:
+      fuse_with_next: 1
+    41:
+      fuse_with_next: 1
+    43:
+      fuse_with_next: 1
+    54:
+      fuse_with_next: 1
+    57:
+      fuse_with_next: 2
+    59:
+      fuse_with_next: 1
+    61:
+      fuse_with_next: 1
+    63:
+      fuse_with_next: 2
+    69:
+      fuse_with_next: 2
+    75:
+      fuse_with_next: 1
+    79:
+      fuse_with_next: 1
+    84:
+      fuse_with_next: 2
+    92:
+      fuse_with_next: 1
+    107:
+      fuse_with_next: 1
+    122:
+      fuse_with_next: 1
+    127:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L22/K22_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    22:
+      fuse_with_next: 1
+    51:
+      fuse_with_next: 1
+    59:
+      fuse_with_next: 1
+    69:
+      fuse_with_next: 2
+    79:
+      fuse_with_next: 1
+    81:
+      fuse_with_next: 1
+    89:
+      fuse_with_next: 1
+    91:
+      fuse_with_next: 1
+    104:
+      fuse_with_next: 1
+- sound_file: Kaiwa_Bunpo_L23/K23_07.mp3
+  sound_silence_threshold: 600
+  overrides:
+    6:
+      fuse_with_next: 2
+    28:
+      fuse_with_next: 1
+    46:
+      fuse_with_next: 2
+    50:
+      fuse_with_next: 1
+    52:
+      fuse_with_next: 1
+    55:
+      fuse_with_next: 1
+    67:
+      fuse_with_next: 1
+    89:
+      fuse_with_next: 1
+    91:
+      fuse_with_next: 1

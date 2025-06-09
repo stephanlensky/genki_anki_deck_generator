@@ -1,0 +1,224 @@
+tags:
+- Genki_1
+- Lesson_2
+- 01_Vocabulary
+vocabulary:
+- tags:
+  - Words_That_Point
+  vocabulary:
+  - japanese: これ
+    english: this one
+    sound_file: Kaiwa_Bunpo_L02/K02_05/3.mp3
+  - japanese: それ
+    english: that one
+    sound_file: Kaiwa_Bunpo_L02/K02_05/5.mp3
+  - japanese: あれ
+    english: that one (over there)
+    sound_file: Kaiwa_Bunpo_L02/K02_05/7.mp3
+  - japanese: どれ
+    english: which one
+    sound_file: Kaiwa_Bunpo_L02/K02_05/9.mp3
+  - japanese: この
+    english: this ...
+    sound_file: Kaiwa_Bunpo_L02/K02_05/11.mp3
+  - japanese: その
+    english: that ...
+    sound_file: Kaiwa_Bunpo_L02/K02_05/13.mp3
+  - japanese: あの
+    english: that ... (over there)
+    sound_file: Kaiwa_Bunpo_L02/K02_05/15.mp3
+  - japanese: どの
+    english: which ...
+    sound_file: Kaiwa_Bunpo_L02/K02_05/17.mp3
+  - japanese: ここ
+    english: here
+    sound_file: Kaiwa_Bunpo_L02/K02_05/19.mp3
+  - japanese: そこ
+    english: there
+    sound_file: Kaiwa_Bunpo_L02/K02_05/21.mp3
+  - japanese: あそこ
+    english: over there
+    sound_file: Kaiwa_Bunpo_L02/K02_05/23.mp3
+  - japanese: どこ
+    english: where
+    sound_file: Kaiwa_Bunpo_L02/K02_05/25.mp3
+  - japanese: だれ
+    english: who
+    sound_file: Kaiwa_Bunpo_L02/K02_05/27.mp3
+- tags:
+  - Food
+  vocabulary:
+  - japanese: おいしい
+    english: delicious
+    sound_file: Kaiwa_Bunpo_L02/K02_05/29.mp3
+  - japanese: さかな
+    english: fish
+    kanji: 魚
+    sound_file: Kaiwa_Bunpo_L02/K02_05/31.mp3
+  - japanese: とんかつ
+    english: pork cutlet
+    sound_file: Kaiwa_Bunpo_L02/K02_05/33.mp3
+  - japanese: にく
+    english: meat
+    kanji: 肉
+    sound_file: Kaiwa_Bunpo_L02/K02_05/35.mp3
+  - japanese: メニュー
+    english: menu
+    sound_file: Kaiwa_Bunpo_L02/K02_05/37.mp3
+  - japanese: やさい
+    english: vegetable
+    kanji: 野菜
+    sound_file: Kaiwa_Bunpo_L02/K02_05/39.mp3
+- tags:
+  - Things
+  vocabulary:
+  - japanese: かさ
+    english: umbrella
+    kanji: 傘
+    sound_file: Kaiwa_Bunpo_L02/K02_05/41.mp3
+  - japanese: かばん
+    english: bag
+    sound_file: Kaiwa_Bunpo_L02/K02_05/43.mp3
+  - japanese: くつ
+    english: shoes
+    kanji: 靴
+    sound_file: Kaiwa_Bunpo_L02/K02_05/45.mp3
+  - japanese: さいふ
+    english: wallet
+    kanji: 財布
+    sound_file: Kaiwa_Bunpo_L02/K02_05/47.mp3
+  - japanese: ジーンズ
+    english: jeans
+    sound_file: Kaiwa_Bunpo_L02/K02_05/49.mp3
+  - japanese: じてんしゃ
+    english: bicycle
+    kanji: 自転車
+    sound_file: Kaiwa_Bunpo_L02/K02_05/51.mp3
+  - japanese: しんぶん
+    english: newspaper
+    kanji: 新聞
+    sound_file: Kaiwa_Bunpo_L02/K02_05/53.mp3
+  - japanese: スマホ
+    english: smartphone; mobile
+    sound_file: Kaiwa_Bunpo_L02/K02_05/56.mp3
+  - japanese: Tシャツ
+    english: T-shirt
+    sound_file: Kaiwa_Bunpo_L02/K02_05/58.mp3
+  - japanese: とけい
+    english: watch; clock
+    kanji: 時計
+    sound_file: Kaiwa_Bunpo_L02/K02_05/60.mp3
+  - japanese: ノート
+    english: notebook
+    sound_file: Kaiwa_Bunpo_L02/K02_05/62.mp3
+  - japanese: ペン
+    english: pen
+    sound_file: Kaiwa_Bunpo_L02/K02_05/64.mp3
+  - japanese: ぼうし
+    english: hat; cap
+    kanji: 帽子
+    sound_file: Kaiwa_Bunpo_L02/K02_05/66.mp3
+  - japanese: ほん
+    english: book
+    kanji: 本
+    sound_file: Kaiwa_Bunpo_L02/K02_05/68.mp3
+- tags:
+  - Places
+  vocabulary:
+  - japanese: ぎんこう
+    english: bank
+    kanji: 銀行
+    sound_file: Kaiwa_Bunpo_L02/K02_05/70.mp3
+  - japanese: コンビニ
+    english: convenience store
+    sound_file: Kaiwa_Bunpo_L02/K02_05/72.mp3
+  - japanese: トイレ
+    english: toilet; restroom
+    sound_file: Kaiwa_Bunpo_L02/K02_05/74.mp3
+  - japanese: としょかん
+    english: library
+    kanji: 図書館
+    sound_file: Kaiwa_Bunpo_L02/K02_05/76.mp3
+  - japanese: ゆうびんきょく
+    english: post office
+    kanji: 郵便局
+    sound_file: Kaiwa_Bunpo_L02/K02_05/78.mp3
+- tags:
+  - Countries
+  vocabulary:
+  - japanese: イギリス
+    english: Britain
+    sound_file: Kaiwa_Bunpo_L02/K02_05/81.mp3
+  - japanese: かんこく
+    english: Korea
+    kanji: 韓国
+    sound_file: Kaiwa_Bunpo_L02/K02_05/83.mp3
+  - japanese: ちゅうごく
+    english: China
+    kanji: 中国
+    sound_file: Kaiwa_Bunpo_L02/K02_05/85.mp3
+- tags:
+  - Majors
+  vocabulary:
+  - japanese: えいご
+    english: English (language)
+    sound_file: Kaiwa_Bunpo_L02/K02_05/87.mp3
+  - japanese: けいざい
+    english: economics
+    sound_file: Kaiwa_Bunpo_L02/K02_05/89.mp3
+  - japanese: コンピューター
+    english: computer
+    sound_file: Kaiwa_Bunpo_L02/K02_05/91.mp3
+  - japanese: ビジネス
+    english: business
+    sound_file: Kaiwa_Bunpo_L02/K02_05/93.mp3
+  - japanese: れきし
+    english: history
+    kanji: 歴史
+    sound_file: Kaiwa_Bunpo_L02/K02_05/95.mp3
+- tags:
+  - Family
+  vocabulary:
+  - japanese: おかあさん
+    english: mother
+    kanji: お母さん
+    sound_file: Kaiwa_Bunpo_L02/K02_05/97.mp3
+  - japanese: おとうさん
+    english: father
+    kanji: お父さん
+    sound_file: Kaiwa_Bunpo_L02/K02_05/99.mp3
+- tags:
+  - Money_Matters
+  vocabulary:
+  - japanese: いくら
+    english: how much
+    sound_file: Kaiwa_Bunpo_L02/K02_05/101.mp3
+  - japanese: 〜えん
+    english: '... yen'
+    kanji: 円
+    sound_file: Kaiwa_Bunpo_L02/K02_05/103.mp3
+  - japanese: たかい
+    english: expensive; high
+    kanji: 高い
+    sound_file: Kaiwa_Bunpo_L02/K02_05/105.mp3
+- tags:
+  - Expressions
+  vocabulary:
+  - japanese: いらっしゃいませ
+    english: Welcome (to our store)
+    sound_file: Kaiwa_Bunpo_L02/K02_05/107.mp3
+  - japanese: （〜を）おねがいします
+    english: '..., please'
+    sound_file: Kaiwa_Bunpo_L02/K02_05/109.mp3
+  - japanese: （〜を）ください
+    english: Please give me ...
+    sound_file: Kaiwa_Bunpo_L02/K02_05/111.mp3
+  - japanese: じゃあ
+    english: then ...; if that is the case, ...
+    sound_file: Kaiwa_Bunpo_L02/K02_05/114.mp3
+  - japanese: どうぞ
+    english: Please.; Here it is.
+    sound_file: Kaiwa_Bunpo_L02/K02_05/116.mp3
+  - japanese: どうも
+    english: Thank you.
+    sound_file: Kaiwa_Bunpo_L02/K02_05/118.mp3

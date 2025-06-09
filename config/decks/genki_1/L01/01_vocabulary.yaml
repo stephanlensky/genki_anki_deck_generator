@@ -1,0 +1,150 @@
+tags:
+- Genki_1
+- Lesson_1
+- 01_Vocabulary
+vocabulary:
+- tags:
+  - School
+  vocabulary:
+  - japanese: だいがく
+    english: college; university
+    kanji: 大学
+    sound_file: Kaiwa_Bunpo_L01/K01_05/3.mp3
+  - japanese: こうこう
+    english: high school
+    kanji: 高校
+    sound_file: Kaiwa_Bunpo_L01/K01_05/5.mp3
+  - japanese: がくせい
+    english: student
+    kanji: 学生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/7.mp3
+  - japanese: だいがくせい
+    english: college student
+    kanji: 大学生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/9.mp3
+  - japanese: りゅうがくせい
+    english: international student
+    kanji: 留学生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/11.mp3
+  - japanese: せんせい
+    english: teacher; Professor ...
+    kanji: 先生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/13.mp3
+  - japanese: 〜ねんせい
+    english: '... year student'
+    kanji: 〜年生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/15.mp3
+  - japanese: いちねんせい
+    english: first-year student
+    kanji: 一年生
+    sound_file: Kaiwa_Bunpo_L01/K01_05/17.mp3
+  - japanese: せんこう
+    english: major
+    sound_file: Kaiwa_Bunpo_L01/K01_05/19.mp3
+- tags:
+  - Person
+  vocabulary:
+  - japanese: わたし
+    english: I
+    kanji: 私
+    sound_file: Kaiwa_Bunpo_L01/K01_05/21.mp3
+  - japanese: ともだち
+    english: friend
+    kanji: 友達
+    sound_file: Kaiwa_Bunpo_L01/K01_05/23.mp3
+  - japanese: 〜さん
+    english: Mr./Ms. ...
+    sound_file: Kaiwa_Bunpo_L01/K01_05/25.mp3
+  - japanese: 〜じん
+    english: '... people'
+    kanji: 人
+    sound_file: Kaiwa_Bunpo_L01/K01_05/27.mp3
+  - japanese: にほんじん
+    english: Japanese people
+    sound_file: Kaiwa_Bunpo_L01/K01_05/29.mp3
+- tags:
+  - Time
+  vocabulary:
+  - japanese: いま
+    english: now
+    kanji: 今
+    sound_file: Kaiwa_Bunpo_L01/K01_05/31.mp3
+  - japanese: ごぜん
+    english: A.M.
+    kanji: 午前
+    sound_file: Kaiwa_Bunpo_L01/K01_05/33.mp3
+  - japanese: ごご
+    english: P.M.
+    kanji: 午後
+    sound_file: Kaiwa_Bunpo_L01/K01_05/35.mp3
+  - japanese: 〜じ
+    english: o'clock
+    kanji: 時
+    sound_file: Kaiwa_Bunpo_L01/K01_05/37.mp3
+  - japanese: いちじ
+    english: 1 o'clock
+    sound_file: Kaiwa_Bunpo_L01/K01_05/40.mp3
+  - japanese: はん
+    english: half
+    kanji: 半
+    sound_file: Kaiwa_Bunpo_L01/K01_05/42.mp3
+  - japanese: にじはん
+    english: half past two
+    sound_file: Kaiwa_Bunpo_L01/K01_05/44.mp3
+- tags:
+  - Others
+  vocabulary:
+  - japanese: にほん
+    english: Japan
+    kanji: 日本
+    sound_file: Kaiwa_Bunpo_L01/K01_05/46.mp3
+  - japanese: アメリカ
+    english: U.S.A.
+    sound_file: Kaiwa_Bunpo_L01/K01_05/48.mp3
+  - japanese: 〜ご
+    english: '... language'
+    kanji: 語
+    sound_file: Kaiwa_Bunpo_L01/K01_05/50.mp3
+  - japanese: にほんご
+    english: Japanese language
+    sound_file: Kaiwa_Bunpo_L01/K01_05/52.mp3
+  - japanese: 〜さい
+    english: '... years old'
+    kanji: 歳
+    sound_file: Kaiwa_Bunpo_L01/K01_05/54.mp3
+  - japanese: でんわ
+    english: telephone
+    kanji: 電話
+    sound_file: Kaiwa_Bunpo_L01/K01_05/56.mp3
+  - japanese: 〜ばん
+    english: number ...
+    sound_file: Kaiwa_Bunpo_L01/K01_05/58.mp3
+  - japanese: ばんごう
+    english: number
+    kanji: 番号
+    sound_file: Kaiwa_Bunpo_L01/K01_05/61.mp3
+  - japanese: なまえ
+    english: name
+    kanji: 名前
+    sound_file: Kaiwa_Bunpo_L01/K01_05/63.mp3
+  - japanese: なん／なに
+    english: what
+    sound_file: Kaiwa_Bunpo_L01/K01_05/65.mp3
+- tags:
+  - Expressions
+  vocabulary:
+  - japanese: あのう
+    english: um ...
+    sound_file: Kaiwa_Bunpo_L01/K01_05/67.mp3
+  - japanese: はい
+    english: yes (formal)
+    sound_file: Kaiwa_Bunpo_L01/K01_05/69.mp3
+  - japanese: そうです
+    english: That's right.
+    sound_file: Kaiwa_Bunpo_L01/K01_05/71.mp3
+  - japanese: そうですか。
+    english: I see.
+    sound_file: Kaiwa_Bunpo_L01/K01_05/73.mp3
+  - japanese: そうですか？
+    english: Is that so?
+    sound_file: Kaiwa_Bunpo_L01/K01_05/75.mp3
