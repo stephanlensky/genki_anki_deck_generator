@@ -1,277 +1,52 @@
 audio:
-- sound_file: Kaiwa_Bunpo_L00/K00_01.mp3
-  sound_silence_threshold: 600
-  overrides:
-    18:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L00/K00_02.mp3
-  sound_silence_threshold: 400
-  overrides:
-    1:
-      fuse_with_next: 1
-    6:
-      fuse_with_next: 2
-    11:
-      fuse_with_next: 1
-    14:
-      fuse_with_next: 1
-    20:
-      fuse_with_next: 1
-    24:
-      fuse_with_next: 1
-    27:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L01/K01_05.mp3
-  sound_silence_threshold: 1000
-- sound_file: Kaiwa_Bunpo_L01/K01_07.mp3
-  sound_silence_threshold: 600
-- sound_file: Kaiwa_Bunpo_L01/K01_21.mp3
-  sound_silence_threshold: 600
-- sound_file: Kaiwa_Bunpo_L02/K02_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    57:
-      fuse_with_next: 1
-    61:
-      fuse_with_next: 1
-    67:
-      fuse_with_next: 1
-    75:
-      fuse_with_next: 1
-    106:
-      fuse_with_next: 1
-    115:
-      fuse_with_next: 1
-    117:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L02/K02_07.mp3
-  sound_silence_threshold: 400
-- sound_file: Kaiwa_Bunpo_L03/K03_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    23:
-      fuse_with_next: 1
-    38:
-      fuse_with_next: 1
-    40:
-      fuse_with_next: 2
-    72:
-      fuse_with_next: 1
-    74:
-      fuse_with_next: 1
-    79:
-      fuse_with_next: 1
-    89:
-      fuse_with_next: 1
-    92:
-      fuse_with_next: 2
-    114:
-      fuse_with_next: 1
-    116:
-      fuse_with_next: 1
-    120:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L04/K04_07.mp3
-  sound_silence_threshold: 300
-  overrides:
-    28:
-      fuse_with_next: 1
-    34:
-      fuse_with_next: 1
-    52:
-      fuse_with_next: 1
-    65:
-      fuse_with_next: 1
-    79:
-      fuse_with_next: 2
-    81:
-      fuse_with_next: 2
-    85:
-      fuse_with_next: 2
-    93:
-      fuse_with_next: 2
-    101:
-      fuse_with_next: 1
-    103:
-      fuse_with_next: 1
-    106:
-      fuse_with_next: 1
-    129:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L05/K05_07.mp3
-  sound_silence_threshold: 600
-  overrides:
-    10:
-      fuse_with_next: 2
-    52:
-      fuse_with_next: 1
-    56:
-      fuse_with_next: 1
-    66:
-      fuse_with_next: 1
-    68:
-      fuse_with_next: 1
-    71:
-      fuse_with_next: 1
-    73:
-      fuse_with_next: 1
-    77:
-      fuse_with_next: 1
-    79:
-      fuse_with_next: 1
-    85:
-      fuse_with_next: 1
-    93:
-      fuse_with_next: 1
-    95:
-      fuse_with_next: 1
-    103:
-      fuse_with_next: 2
-- sound_file: Kaiwa_Bunpo_L06/K06_07.mp3
-  sound_silence_threshold: 600
-  overrides:
-    4:
-      fuse_with_next: 1
-    23:
-      fuse_with_next: 1
-    29:
-      fuse_with_next: 1
-    41:
-      fuse_with_next: 1
-    46:
-      fuse_with_next: 2
-    48:
-      fuse_with_next: 1
-    52:
-      fuse_with_next: 1
-    61:
-      fuse_with_next: 1
-    65:
-      fuse_with_next: 1
-    73:
-      fuse_with_next: 1
-    76:
-      fuse_with_next: 1
-    99:
-      fuse_with_next: 2
-    101:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L07/K07_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    6:
-      fuse_with_next: 1
-    8:
-      fuse_with_next: 1
-    36:
-      fuse_with_next: 1
-    64:
-      fuse_with_next: 2
-    91:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L08/K08_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    32:
-      fuse_with_next: 2
-    48:
-      fuse_with_next: 1
-    56:
-      fuse_with_next: 1
-    58:
-      fuse_with_next: 1
-    96:
-      fuse_with_next: 1
-    99:
-      fuse_with_next: 1
-    114:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L09/K09_07.mp3
-  sound_silence_threshold: 600
-  overrides:
-    4:
-      fuse_with_next: 1
-    6:
-      fuse_with_next: 1
-    24:
-      fuse_with_next: 1
-    32:
-      fuse_with_next: 1
-    78:
-      fuse_with_next: 2
-- sound_file: Kaiwa_Bunpo_L10/K10_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    38:
-      fuse_with_next: 1
-    42:
-      fuse_with_next: 1
-    60:
-      fuse_with_next: 1
-    70:
-      fuse_with_next: 1
-    74:
-      fuse_with_next: 1
-    86:
-      fuse_with_next: 1
-    96:
-      fuse_with_next: 1
-    100:
-      fuse_with_next: 1
-    102:
-      fuse_with_next: 1
-    104:
-      fuse_with_next: 1
-    114:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L11/K11_07.mp3
-  sound_silence_threshold: 600
-  overrides:
-    10:
-      fuse_with_next: 1
-    43:
-      fuse_with_next: 1
-    65:
-      fuse_with_next: 1
-    69:
-      fuse_with_next: 1
-    77:
-      fuse_with_next: 1
-    86:
-      fuse_with_next: 1
-    88:
-      fuse_with_next: 1
-    92:
-      fuse_with_next: 1
-    96:
-      fuse_with_next: 1
-    100:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L11/K11_09.mp3
-  sound_silence_threshold: 600
-  overrides:
-    22:
-      fuse_with_next: 1
-- sound_file: Kaiwa_Bunpo_L12/K12_05.mp3
-  sound_silence_threshold: 600
-  overrides:
-    6:
-      fuse_with_next: 1
-    37:
-      fuse_with_next: 1
-    43:
-      fuse_with_next: 1
-    49:
-      fuse_with_next: 1
-    51:
-      fuse_with_next: 1
-    59:
-      fuse_with_next: 1
-    63:
-      fuse_with_next: 1
-    89:
-      fuse_with_next: 2
-    102:
-      fuse_with_next: 1
-    105:
-      fuse_with_next: 2
+  - sound_file: Kaiwa_Bunpo_L00/K00_01.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L00/K00_02.mp3
+    sound_silence_threshold: 400
+    overrides:
+      1:
+        fuse_with_next: 1
+      6:
+        fuse_with_next: 2
+      11:
+        fuse_with_next: 1
+      14:
+        fuse_with_next: 1
+      20:
+        fuse_with_next: 1
+      24:
+        fuse_with_next: 1
+      27:
+        fuse_with_next: 1
+  - sound_file: Kaiwa_Bunpo_L01/K01_05.mp3
+    sound_silence_threshold: 1000
+  - sound_file: Kaiwa_Bunpo_L01/K01_07.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L01/K01_21.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L02/K02_05.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L02/K02_07.mp3
+    sound_silence_threshold: 400
+  - sound_file: Kaiwa_Bunpo_L03/K03_05.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L04/K04_07.mp3
+    sound_silence_threshold: 300
+  - sound_file: Kaiwa_Bunpo_L05/K05_07.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L06/K06_07.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L07/K07_05.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L08/K08_05.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L09/K09_07.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L10/K10_05.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L11/K11_07.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L11/K11_09.mp3
+    sound_silence_threshold: 600
+  - sound_file: Kaiwa_Bunpo_L12/K12_05.mp3
+    sound_silence_threshold: 600
