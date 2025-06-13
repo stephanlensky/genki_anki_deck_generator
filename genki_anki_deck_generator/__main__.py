@@ -89,32 +89,24 @@ def _preprocess_audio(reprocess: bool) -> None:
                     print(f"Skipping {sound_file}, target directory exists and is not empty.")
                     continue
 
-            fuse = (
-                {
-                    i: override.fuse_with_next
-                    for i, override in audio_file.overrides.items()
-                    if override.fuse_with_next is not None
-                }
-                if audio_file.overrides
-                else None
-            )
+            overrides = audio_file.overrides or {}
             to_process.append(
                 (
                     sound_file,
                     target_dir,
                     audio_file.sound_silence_threshold,
-                    fuse,
+                    overrides,
                 )
             )
 
-    for sound_file, target_dir, silence_threshold, fuse in to_process:
+    for sound_file, target_dir, silence_threshold, overrides in to_process:
         print(f"Processing audio file: {sound_file} -> {target_dir}")
         try:
             split_audio_file(
                 file=sound_file,
                 target_dir=target_dir,
                 sound_silence_threshold=silence_threshold,
-                fuse=fuse,
+                overrides=overrides,
             )
         except KeyboardInterrupt:
             print("Interrupted! Deleting partially processed directory")

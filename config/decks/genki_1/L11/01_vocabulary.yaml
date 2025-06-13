@@ -23,18 +23,18 @@ vocabulary:
     sound_file: Kaiwa_Bunpo_L11/K11_07/9.mp3
   - japanese: つり
     english: fishing
-    sound_file: Kaiwa_Bunpo_L11/K11_07/11.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/12.mp3
   - japanese: みずうみ
     english: lake
     kanji: 湖
-    sound_file: Kaiwa_Bunpo_L11/K11_07/13.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/14.mp3
   - japanese: やま
     english: mountain
     kanji: 山
-    sound_file: Kaiwa_Bunpo_L11/K11_07/15.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/16.mp3
   - japanese: キャンプ
     english: camp
-    sound_file: Kaiwa_Bunpo_L11/K11_07/17.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/18.mp3
   - japanese: ドライブ
     english: drive
     sound_file: Kaiwa_Bunpo_L11/K11_07/20.mp3
@@ -82,116 +82,116 @@ vocabulary:
     sound_file: Kaiwa_Bunpo_L11/K11_07/42.mp3
   - japanese: ビール
     english: beer
-    sound_file: Kaiwa_Bunpo_L11/K11_07/44.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/45.mp3
   - japanese: おもちゃ
     english: toy
-    sound_file: Kaiwa_Bunpo_L11/K11_07/46.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/47.mp3
   - japanese: こんがっき
     english: this semester
     kanji: 今学期
-    sound_file: Kaiwa_Bunpo_L11/K11_07/48.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/49.mp3
   - japanese: らいがっき
     english: next semester
     kanji: 来学期
-    sound_file: Kaiwa_Bunpo_L11/K11_07/50.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/51.mp3
   - japanese: じゅぎょう
     english: class
     kanji: 授業
-    sound_file: Kaiwa_Bunpo_L11/K11_07/52.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/53.mp3
   - japanese: こちら
     english: this person (polite)
-    sound_file: Kaiwa_Bunpo_L11/K11_07/54.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/55.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: うそをつく
     english: to tell a lie
-    sound_file: Kaiwa_Bunpo_L11/K11_07/56.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/58.mp3
   - japanese: おなかがすく
     english: to become hungry
-    sound_file: Kaiwa_Bunpo_L11/K11_07/58.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/60.mp3
   - japanese: かう
     english: to own (a pet) (〜を)
     kanji: 飼う
-    sound_file: Kaiwa_Bunpo_L11/K11_07/60.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/62.mp3
   - japanese: サボる
     english: to cut (classes) (〜を)
-    sound_file: Kaiwa_Bunpo_L11/K11_07/62.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/64.mp3
   - japanese: とる
     english: to take (a class); to get (a grade) (〜を)
     kanji: 取る
-    sound_file: Kaiwa_Bunpo_L11/K11_07/64.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/66.mp3
   - japanese: ならう
     english: to learn (〜を)
     kanji: 習う
-    sound_file: Kaiwa_Bunpo_L11/K11_07/66.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/69.mp3
   - japanese: のぼる
     english: to climb (<i>place</i>&nbsp;に)
     kanji: 登る
-    sound_file: Kaiwa_Bunpo_L11/K11_07/68.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/71.mp3
   - japanese: はしる
     english: to run
     kanji: 走る
-    sound_file: Kaiwa_Bunpo_L11/K11_07/70.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/73.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: つかれる
     english: to get tired
     kanji: 疲れる
-    sound_file: Kaiwa_Bunpo_L11/K11_07/72.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/76.mp3
   - japanese: やめる
     english: to quit (〜を)
-    sound_file: Kaiwa_Bunpo_L11/K11_07/74.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/78.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: けんかする
     english: to have a fight; to quarrel
-    sound_file: Kaiwa_Bunpo_L11/K11_07/76.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/81.mp3
   - japanese: しょうかいする
     english: to introduce (<i>person </i>に <i>person </i>を)
     kanji: 紹介する
-    sound_file: Kaiwa_Bunpo_L11/K11_07/78.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/84.mp3
   - japanese: ダイエットする
     english: to go on a diet
-    sound_file: Kaiwa_Bunpo_L11/K11_07/80.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/86.mp3
   - japanese: ちこくする
     english: to be late (for an appointment) (〜に)
     kanji: 遅刻する
-    sound_file: Kaiwa_Bunpo_L11/K11_07/82.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/88.mp3
   - japanese: りゅうがくする
     english: to study abroad (<i>place</i>&nbsp;に)
     kanji: 留学する
-    sound_file: Kaiwa_Bunpo_L11/K11_07/85.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/90.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: しゅっしん
     english: coming from (<i>place</i>&nbsp;の)
     kanji: 出身
-    sound_file: Kaiwa_Bunpo_L11/K11_07/87.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/93.mp3
   - japanese: ひさしぶり
     english: it has been a long time
     kanji: 久しぶり
-    sound_file: Kaiwa_Bunpo_L11/K11_07/89.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/95.mp3
   - japanese: まあまあ
     english: okay; so-so
-    sound_file: Kaiwa_Bunpo_L11/K11_07/91.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/97.mp3
   - japanese: もっと
     english: more
-    sound_file: Kaiwa_Bunpo_L11/K11_07/93.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/100.mp3
   - japanese: あと
     english: after (an event) (<i>event</i>&nbsp;の)
     kanji: 後
-    sound_file: Kaiwa_Bunpo_L11/K11_07/95.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/102.mp3
   - japanese: そして
     english: and then
-    sound_file: Kaiwa_Bunpo_L11/K11_07/97.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/104.mp3
   - japanese: 〜だけ
     english: just ...; only ...
-    sound_file: Kaiwa_Bunpo_L11/K11_07/99.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/106.mp3
   - japanese: 〜てん
     english: '... points'
     kanji: 〜点
-    sound_file: Kaiwa_Bunpo_L11/K11_07/101.mp3
+    sound_file: Kaiwa_Bunpo_L11/K11_07/109.mp3

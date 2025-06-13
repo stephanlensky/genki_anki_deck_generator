@@ -83,154 +83,154 @@ vocabulary:
   - japanese: あかるい
     english: bright
     kanji: 明るい
-    sound_file: Kaiwa_Bunpo_L18/K18_07/43.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/44.mp3
   - japanese: くらい
     english: dark
     kanji: 暗い
-    sound_file: Kaiwa_Bunpo_L18/K18_07/45.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/46.mp3
   - japanese: はずかしい
     english: embarrasing
     kanji: 恥ずかしい
-    sound_file: Kaiwa_Bunpo_L18/K18_07/47.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/48.mp3
 - tags:
   - な-adjectives
   vocabulary:
   - japanese: たいせつ(な)
     english: precious; important
     kanji: 大切
-    sound_file: Kaiwa_Bunpo_L18/K18_07/49.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/52.mp3
   - japanese: ふあん(な)
     english: anxious; worried
     kanji: 不安
-    sound_file: Kaiwa_Bunpo_L18/K18_07/51.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/55.mp3
   - japanese: むり(な)
     english: impossible
     kanji: 無理
-    sound_file: Kaiwa_Bunpo_L18/K18_07/53.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/58.mp3
 - tags:
   - U_verbs
   vocabulary:
   - japanese: あく
     english: (something) opens (～が)
     kanji: 開く
-    sound_file: Kaiwa_Bunpo_L18/K18_07/55.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/61.mp3
   - japanese: しまる
     english: (something) closes (～が)
     kanji: 閉まる
-    sound_file: Kaiwa_Bunpo_L18/K18_07/57.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/63.mp3
   - japanese: あやまる
     english: to apologize (personに)
     kanji: 謝る
-    sound_file: Kaiwa_Bunpo_L18/K18_07/59.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/65.mp3
   - japanese: おす
     english: to press; to push (～を)
     kanji: 押す
-    sound_file: Kaiwa_Bunpo_L18/K18_07/61.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/67.mp3
   - japanese: おとす
     english: to drop (something) (~を）
     kanji: 落とす
-    sound_file: Kaiwa_Bunpo_L18/K18_07/63.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/70.mp3
   - japanese: おゆがわく
     english: water boils
     kanji: お湯が沸く
-    sound_file: Kaiwa_Bunpo_L18/K18_07/65.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/72.mp3
   - japanese: ころぶ
     english: to fall down
     kanji: 転ぶ
-    sound_file: Kaiwa_Bunpo_L18/K18_07/67.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/74.mp3
   - japanese: こわす
     english: to break (something) (～を)
     kanji: 壊す
-    sound_file: Kaiwa_Bunpo_L18/K18_07/69.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/76.mp3
   - japanese: さく
     english: to bloom (～が)
     kanji: 咲く
-    sound_file: Kaiwa_Bunpo_L18/K18_07/71.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/78.mp3
   - japanese: たすかる
     english: to be saved; to be helped
     kanji: 助かる
-    sound_file: Kaiwa_Bunpo_L18/K18_07/73.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/80.mp3
   - japanese: たのむ
     english: to ask (a favor) (personに～を)
     kanji: 頼む
-    sound_file: Kaiwa_Bunpo_L18/K18_07/75.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/83.mp3
   - japanese: つく
     english: (something) turns on (～が)
     kanji: 点く（rare）
-    sound_file: Kaiwa_Bunpo_L18/K18_07/77.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/85.mp3
   - japanese: よごす
     english: to make dirty （～を）
     kanji: 汚す
-    sound_file: Kaiwa_Bunpo_L18/K18_07/79.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/87.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: おちる
     english: (something) drops (～が)
     kanji: 落ちる
-    sound_file: Kaiwa_Bunpo_L18/K18_07/81.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/90.mp3
   - japanese: かたづける
     english: to tidy up（～を）
     kanji: 片付ける
-    sound_file: Kaiwa_Bunpo_L18/K18_07/84.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/92.mp3
   - japanese: かんがえる
     english: to think (about); to consider
     kanji: 考える
-    sound_file: Kaiwa_Bunpo_L18/K18_07/86.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/94.mp3
   - japanese: きえる
     english: (something) goes off (～が)
     kanji: 消える
-    sound_file: Kaiwa_Bunpo_L18/K18_07/88.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/97.mp3
   - japanese: こわれる
     english: (something) breaks (～が)
     kanji: 壊れる
-    sound_file: Kaiwa_Bunpo_L18/K18_07/90.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/99.mp3
   - japanese: よごれる
     english: to become dirty (～が)
     kanji: 汚れる
-    sound_file: Kaiwa_Bunpo_L18/K18_07/92.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/101.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: ちゅうもんする
     english: to place an order (～を)
     kanji: 注文する
-    sound_file: Kaiwa_Bunpo_L18/K18_07/94.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/104.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: いますぐ
     english: right away
     kanji: 今すぐ
-    sound_file: Kaiwa_Bunpo_L18/K18_07/98.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/107.mp3
   - japanese: ～までに
     english: by (time/date)
     kanji: ～迄に（rare）
-    sound_file: Kaiwa_Bunpo_L18/K18_07/100.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/109.mp3
   - japanese: ほんとうに
     english: really
     kanji: 本当に
-    sound_file: Kaiwa_Bunpo_L18/K18_07/103.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/111.mp3
   - japanese: まず
     english: first of all
     kanji: 先ず（rare）
-    sound_file: Kaiwa_Bunpo_L18/K18_07/105.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/113.mp3
   - japanese: おかげで
     english: thanks to… (…の)
     kanji: お陰で(rare)
-    sound_file: Kaiwa_Bunpo_L18/K18_07/108.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/115.mp3
   - japanese: どうしよう
     english: What should I/we do?
-    sound_file: Kaiwa_Bunpo_L18/K18_07/110.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/117.mp3
   - japanese: ～（ん）だろう
     english: short form of ～（ん）でしょう
-    sound_file: Kaiwa_Bunpo_L18/K18_07/113.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/120.mp3
   - japanese: おさきにしつれいします
     english: See you. (lit., I'm leaving ahead of you)
     kanji: お先に失礼します
-    sound_file: Kaiwa_Bunpo_L18/K18_07/115.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/122.mp3
   - japanese: おつかれさま（でした）
     english: You must be tired after working so hard. (greeting between friends and
       coworkers)
     kanji: お疲れ様(でした)
-    sound_file: Kaiwa_Bunpo_L18/K18_07/117.mp3
+    sound_file: Kaiwa_Bunpo_L18/K18_07/124.mp3

@@ -15,19 +15,19 @@ vocabulary:
     sound_file: Kaiwa_Bunpo_L07/K07_05/5.mp3
   - japanese: おばあさん
     english: grandmother; old woman
-    sound_file: Kaiwa_Bunpo_L07/K07_05/7.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/8.mp3
   - japanese: おにいさん
     english: older brother
     kanji: お兄さん
-    sound_file: Kaiwa_Bunpo_L07/K07_05/9.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/11.mp3
   - japanese: おねえさん
     english: older sister
     kanji: お姉さん
-    sound_file: Kaiwa_Bunpo_L07/K07_05/12.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/13.mp3
   - japanese: ちち
     english: (my) father
     kanji: 父
-    sound_file: Kaiwa_Bunpo_L07/K07_05/14.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/15.mp3
   - japanese: はは
     english: (my) mother
     kanji: 母
@@ -70,168 +70,168 @@ vocabulary:
     sound_file: Kaiwa_Bunpo_L07/K07_05/35.mp3
   - japanese: デパート
     english: department store
-    sound_file: Kaiwa_Bunpo_L07/K07_05/37.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/38.mp3
   - japanese: かみ
     english: hair
     kanji: 髪
-    sound_file: Kaiwa_Bunpo_L07/K07_05/39.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/40.mp3
   - japanese: くち
     english: mouth
     kanji: 口
-    sound_file: Kaiwa_Bunpo_L07/K07_05/41.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/42.mp3
   - japanese: め
     english: eye
     kanji: 目
-    sound_file: Kaiwa_Bunpo_L07/K07_05/43.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/44.mp3
   - japanese: めがね
     english: glasses
     kanji: 眼鏡
-    sound_file: Kaiwa_Bunpo_L07/K07_05/45.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/46.mp3
   - japanese: うた
     english: song
     kanji: 歌
-    sound_file: Kaiwa_Bunpo_L07/K07_05/47.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/48.mp3
   - japanese: サークル
     english: club activity
-    sound_file: Kaiwa_Bunpo_L07/K07_05/49.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/50.mp3
   - japanese: くるま
     english: car
     kanji: 車
-    sound_file: Kaiwa_Bunpo_L07/K07_05/51.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/52.mp3
 - tags:
   - い-adjectives
   vocabulary:
   - japanese: ながい
     english: long
     kanji: 長い
-    sound_file: Kaiwa_Bunpo_L07/K07_05/53.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/55.mp3
   - japanese: みじかい
     english: short (length)
     kanji: 短い
-    sound_file: Kaiwa_Bunpo_L07/K07_05/55.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/57.mp3
   - japanese: はやい
     english: fast
     kanji: 速い
-    sound_file: Kaiwa_Bunpo_L07/K07_05/57.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/59.mp3
   - japanese: せがたかい
     english: tall (stature)
     kanji: 背が高い
-    sound_file: Kaiwa_Bunpo_L07/K07_05/59.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/61.mp3
   - japanese: せがひくい
     english: short (stature)
     kanji: 背が低い
-    sound_file: Kaiwa_Bunpo_L07/K07_05/61.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/63.mp3
   - japanese: あたまがいい
     english: bright; smart; clever (conjugates like いい)
     kanji: 頭がいい
-    sound_file: Kaiwa_Bunpo_L07/K07_05/63.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/65.mp3
   - japanese: かわいい
     english: cute
-    sound_file: Kaiwa_Bunpo_L07/K07_05/65.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/69.mp3
 - tags:
   - な-adjectives
   vocabulary:
   - japanese: しんせつ（な）
     english: kind
     kanji: 親切
-    sound_file: Kaiwa_Bunpo_L07/K07_05/67.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/72.mp3
   - japanese: べんり（な）
     english: convenient
     kanji: 便利
-    sound_file: Kaiwa_Bunpo_L07/K07_05/70.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/74.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: うたう
     english: to sing (〜を)
     kanji: 歌う
-    sound_file: Kaiwa_Bunpo_L07/K07_05/72.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/77.mp3
   - japanese: かぶる
     english: to put on (a hat) (〜を)
-    sound_file: Kaiwa_Bunpo_L07/K07_05/74.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/79.mp3
   - japanese: はく
     english: to put on (items below your waist) (〜を)
-    sound_file: Kaiwa_Bunpo_L07/K07_05/76.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/81.mp3
   - japanese: しる
     english: to get to know (〜を)
     kanji: 知る
-    sound_file: Kaiwa_Bunpo_L07/K07_05/78.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/83.mp3
   - japanese: しっています
     english: I know
     kanji: 知っています
-    sound_file: Kaiwa_Bunpo_L07/K07_05/80.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/85.mp3
   - japanese: しりません
     english: I do not know
     kanji: 知りません
-    sound_file: Kaiwa_Bunpo_L07/K07_05/82.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/87.mp3
   - japanese: すむ
     english: to live (〜にすんでいます)
     kanji: 住む
-    sound_file: Kaiwa_Bunpo_L07/K07_05/84.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/89.mp3
   - japanese: はたらく
     english: to work
     kanji: 働く
-    sound_file: Kaiwa_Bunpo_L07/K07_05/86.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/91.mp3
   - japanese: ふとる
     english: to gain weight
     kanji: 太る
-    sound_file: Kaiwa_Bunpo_L07/K07_05/88.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/93.mp3
   - japanese: ふとっています
     english: to be on the heavy side; overweight
     kanji: 太っています
-    sound_file: Kaiwa_Bunpo_L07/K07_05/90.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/95.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: （めがねを）かける
     english: to put on (glasses)
-    sound_file: Kaiwa_Bunpo_L07/K07_05/92.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/99.mp3
   - japanese: きる
     english: to put on (clothes above your waist) (〜を)
     kanji: 着る
-    sound_file: Kaiwa_Bunpo_L07/K07_05/94.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/101.mp3
   - japanese: やせる
     english: to lose weight
-    sound_file: Kaiwa_Bunpo_L07/K07_05/96.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/103.mp3
   - japanese: やせています
     english: to be thin
-    sound_file: Kaiwa_Bunpo_L07/K07_05/98.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/105.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: けっこんする
     english: to get married (〜と)
     kanji: 結婚する
-    sound_file: Kaiwa_Bunpo_L07/K07_05/100.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/108.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: 〜が
     english: '..., but'
-    sound_file: Kaiwa_Bunpo_L07/K07_05/103.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/111.mp3
   - japanese: なにも + negative
     english: not ... anything
     kanji: 何も
-    sound_file: Kaiwa_Bunpo_L07/K07_05/105.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/113.mp3
   - japanese: 〜にん
     english: '[counter for people]'
     kanji: 〜人
-    sound_file: Kaiwa_Bunpo_L07/K07_05/107.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/115.mp3
   - japanese: ひとり
     english: one person
     kanji: 一人
-    sound_file: Kaiwa_Bunpo_L07/K07_05/109.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/117.mp3
   - japanese: ふたり
     english: two people
     kanji: 二人
-    sound_file: Kaiwa_Bunpo_L07/K07_05/111.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/119.mp3
   - japanese: べつに + negative
     english: nothing in particular
     kanji: 別に
-    sound_file: Kaiwa_Bunpo_L07/K07_05/113.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/121.mp3
   - japanese: もちろん
     english: of course
-    sound_file: Kaiwa_Bunpo_L07/K07_05/115.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/123.mp3
   - japanese: よかったら
     english: if you like
-    sound_file: Kaiwa_Bunpo_L07/K07_05/117.mp3
+    sound_file: Kaiwa_Bunpo_L07/K07_05/125.mp3

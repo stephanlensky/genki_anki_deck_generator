@@ -25,6 +25,7 @@ class Config:
 @dataclass
 class DeckAudioFileOverride:
     fuse_with_next: int | None = None
+    resplit: int | None = None
 
 
 @dataclass

@@ -32,27 +32,27 @@ vocabulary:
   - japanese: おおきさ
     english: size
     kanji: 大きさ
-    sound_file: Kaiwa_Bunpo_L16/K16_07/15.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/17.mp3
   - japanese: みち
     english: way; road; directions
     kanji: 道
-    sound_file: Kaiwa_Bunpo_L16/K16_07/17.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/19.mp3
   - japanese: きまつしけん
     english: final examination
     kanji: 期末試験
-    sound_file: Kaiwa_Bunpo_L16/K16_07/19.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/21.mp3
   - japanese: けんきゅう
     english: research
     kanji: 研究
-    sound_file: Kaiwa_Bunpo_L16/K16_07/21.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/23.mp3
   - japanese: だいがくいん
     english: graduate school
     kanji: 大学院
-    sound_file: Kaiwa_Bunpo_L16/K16_07/23.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/25.mp3
   - japanese: しょうがくきん
     english: scholarship
     kanji: 奨学金
-    sound_file: Kaiwa_Bunpo_L16/K16_07/25.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/27.mp3
   - japanese: すいせんじょう
     english: letter of recommendation
     kanji: 推薦状
@@ -79,151 +79,151 @@ vocabulary:
   - japanese: きたない
     english: dirty
     kanji: 汚い
-    sound_file: Kaiwa_Bunpo_L16/K16_07/39.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/40.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: おこす
     english: to wake (someone) up (～を)
     kanji: 起こす
-    sound_file: Kaiwa_Bunpo_L16/K16_07/41.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/43.mp3
   - japanese: おごる
     english: to treat (someone) to a meal (person に meal を)
     kanji: 奢る（rare）
-    sound_file: Kaiwa_Bunpo_L16/K16_07/43.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/45.mp3
   - japanese: わらう
     english: to laugh
     kanji: 笑う
-    sound_file: Kaiwa_Bunpo_L16/K16_07/45.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/47.mp3
   - japanese: おちこむ
     english: to get depressed
     kanji: 落ち込む
-    sound_file: Kaiwa_Bunpo_L16/K16_07/47.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/49.mp3
   - japanese: こまる
     english: to have difficulty (to be troubled)
     kanji: 困る
-    sound_file: Kaiwa_Bunpo_L16/K16_07/49.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/51.mp3
   - japanese: だす
     english: to take (something) out; to hand in (something) (～を)
     kanji: 出す
-    sound_file: Kaiwa_Bunpo_L16/K16_07/51.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/53.mp3
   - japanese: なおす
     english: to correct; to fix (～を)
     kanji: 直す
-    sound_file: Kaiwa_Bunpo_L16/K16_07/53.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/56.mp3
   - japanese: みつかる
     english: to be found (～が)
     kanji: 見つかる
-    sound_file: Kaiwa_Bunpo_L16/K16_07/55.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/59.mp3
   - japanese: やくす
     english: to translate (source を target に)
     kanji: 訳す
-    sound_file: Kaiwa_Bunpo_L16/K16_07/57.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/61.mp3
   - japanese: かす
     english: to lend (person に thing を)
     kanji: 貸す
-    sound_file: Kaiwa_Bunpo_L16/K16_07/59.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/63.mp3
   - japanese: つれていく
     english: to take (someone) to (a place)  (person を place に)
     kanji: 連れていく
-    sound_file: Kaiwa_Bunpo_L16/K16_07/61.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/65.mp3
   - japanese: みちにまよう
     english: to become lost; to lose one's way
     kanji: 道に迷う
-    sound_file: Kaiwa_Bunpo_L16/K16_07/63.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/67.mp3
   - japanese: むかえにいく
     english: to go to pickup  (place まで/ person を)
     kanji: 迎えに行く
-    sound_file: Kaiwa_Bunpo_L16/K16_07/65.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/70.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: あつめる
     english: to collect (～を)
     kanji: 集める
-    sound_file: Kaiwa_Bunpo_L16/K16_07/67.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/73.mp3
   - japanese: いれる
     english: to put (something) in (thing を place に)
     kanji: 入れる
-    sound_file: Kaiwa_Bunpo_L16/K16_07/69.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/75.mp3
   - japanese: みせる
     english: to show (person に thing を)
     kanji: 見せる
-    sound_file: Kaiwa_Bunpo_L16/K16_07/71.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/77.mp3
   - japanese: のりおくれる
     english: to miss (a train, bus, etc.) (～に)
     kanji: 乗り遅れる
-    sound_file: Kaiwa_Bunpo_L16/K16_07/74.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/79.mp3
   - japanese: アイロンをかける
     english: to iron (clothes) (～に)
     kanji: アイロンを掛ける（rare）
-    sound_file: Kaiwa_Bunpo_L16/K16_07/76.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/81.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: あさねぼうする
     english: to oversleep
     kanji: 朝寝坊する
-    sound_file: Kaiwa_Bunpo_L16/K16_07/79.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/84.mp3
   - japanese: あんないする
     english: to show (someone) around  (place を)
     kanji: 案内する
-    sound_file: Kaiwa_Bunpo_L16/K16_07/81.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/86.mp3
   - japanese: せつめいする
     english: to explain
     kanji: 説明する
-    sound_file: Kaiwa_Bunpo_L16/K16_07/83.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/88.mp3
   - japanese: むかえにくる
     english: to come to pickup (place まで/に person を)
     kanji: 迎えに来る
-    sound_file: Kaiwa_Bunpo_L16/K16_07/85.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/90.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: きょうじゅうに
     english: by the end of today
     kanji: 今日中に
-    sound_file: Kaiwa_Bunpo_L16/K16_07/87.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/93.mp3
   - japanese: じゅぎょうちゅうに
     english: in class; during the class
     kanji: 授業中に
-    sound_file: Kaiwa_Bunpo_L16/K16_07/89.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/95.mp3
   - japanese: このあいだ
     english: the other day
     kanji: この間
-    sound_file: Kaiwa_Bunpo_L16/K16_07/91.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/98.mp3
   - japanese: これから
     english: from now on
     kanji: 此れから（rare）
-    sound_file: Kaiwa_Bunpo_L16/K16_07/93.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/100.mp3
   - japanese: このぐらい
     english: about this much (=これぐらい/このくらい/これくらい)
     kanji: 此の位（rare）
-    sound_file: Kaiwa_Bunpo_L16/K16_07/95.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/102.mp3
   - japanese: じぶんで
     english: (do something) by oneself
     kanji: 自分で
-    sound_file: Kaiwa_Bunpo_L16/K16_07/97.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/104.mp3
   - japanese: ほかの
     english: other
     kanji: 他の
-    sound_file: Kaiwa_Bunpo_L16/K16_07/99.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/106.mp3
   - japanese: ええと
     english: well…; let me see…
-    sound_file: Kaiwa_Bunpo_L16/K16_07/101.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/108.mp3
   - japanese: じつは
     english: actually; in fact
     kanji: 実は
-    sound_file: Kaiwa_Bunpo_L16/K16_07/104.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/111.mp3
   - japanese: ～いがい
     english: other than…
     kanji: ～以外
-    sound_file: Kaiwa_Bunpo_L16/K16_07/106.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/114.mp3
   - japanese: ごめん
     english: I'm sorry. (casual)
     kanji: 御免（rare）
-    sound_file: Kaiwa_Bunpo_L16/K16_07/109.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/116.mp3
   - japanese: しつれいします
     english: Excuse me; Sorry to interrupt you
     kanji: 失礼します
-    sound_file: Kaiwa_Bunpo_L16/K16_07/111.mp3
+    sound_file: Kaiwa_Bunpo_L16/K16_07/118.mp3

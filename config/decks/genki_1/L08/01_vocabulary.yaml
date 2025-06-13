@@ -67,164 +67,164 @@ vocabulary:
     sound_file: Kaiwa_Bunpo_L08/K08_05/31.mp3
   - japanese: カメラ
     english: camera
-    sound_file: Kaiwa_Bunpo_L08/K08_05/33.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/35.mp3
   - japanese: カラオケ
     english: karaoke
-    sound_file: Kaiwa_Bunpo_L08/K08_05/35.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/37.mp3
   - japanese: ところ
     english: place
     kanji: 所
-    sound_file: Kaiwa_Bunpo_L08/K08_05/37.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/39.mp3
   - japanese: トマト
     english: tomato
-    sound_file: Kaiwa_Bunpo_L08/K08_05/39.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/41.mp3
   - japanese: はし
     english: chopsticks
-    sound_file: Kaiwa_Bunpo_L08/K08_05/41.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/43.mp3
   - japanese: パーティー
     english: party
-    sound_file: Kaiwa_Bunpo_L08/K08_05/43.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/45.mp3
   - japanese: バーベキュー
     english: barbecue
-    sound_file: Kaiwa_Bunpo_L08/K08_05/45.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/47.mp3
   - japanese: ホームステイ
     english: homestay; living with a local family
-    sound_file: Kaiwa_Bunpo_L08/K08_05/47.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/49.mp3
   - japanese: おふろ
     english: bath
     kanji: お風呂
-    sound_file: Kaiwa_Bunpo_L08/K08_05/49.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/52.mp3
   - japanese: スペイン
     english: Spain
-    sound_file: Kaiwa_Bunpo_L08/K08_05/51.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/54.mp3
   - japanese: なにか
     english: something
     kanji: 何か
-    sound_file: Kaiwa_Bunpo_L08/K08_05/53.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/56.mp3
 - tags:
   - な-adjectives
   vocabulary:
   - japanese: じょうず（な）
     english: skillful; good at ... (〜が)
     kanji: 上手
-    sound_file: Kaiwa_Bunpo_L08/K08_05/55.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/59.mp3
   - japanese: へた（な）
     english: clumsy; poor at ... (〜が)
     kanji: 下手
-    sound_file: Kaiwa_Bunpo_L08/K08_05/57.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/62.mp3
   - japanese: ゆうめい（な）
     english: famous
     kanji: 有名
-    sound_file: Kaiwa_Bunpo_L08/K08_05/59.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/65.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: あらう
     english: to wash (〜を)
     kanji: 洗う
-    sound_file: Kaiwa_Bunpo_L08/K08_05/61.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/68.mp3
   - japanese: いう
     english: to say
     kanji: 言う
-    sound_file: Kaiwa_Bunpo_L08/K08_05/65.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/72.mp3
   - japanese: いる
     english: to need (〜が)
-    sound_file: Kaiwa_Bunpo_L08/K08_05/67.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/72.mp3
   - japanese: おそくなる
     english: to be late
     kanji: 遅くなる
-    sound_file: Kaiwa_Bunpo_L08/K08_05/69.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/74.mp3
   - japanese: おふろにはいる
     english: to take a bath
     kanji: お風呂に入る
-    sound_file: Kaiwa_Bunpo_L08/K08_05/71.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/76.mp3
   - japanese: おもう
     english: to think
     kanji: 思う
-    sound_file: Kaiwa_Bunpo_L08/K08_05/73.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/78.mp3
   - japanese: きる
     english: to cut (〜を)
     kanji: 切る
-    sound_file: Kaiwa_Bunpo_L08/K08_05/75.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/80.mp3
   - japanese: つくる
     english: to make (〜を)
     kanji: 作る
-    sound_file: Kaiwa_Bunpo_L08/K08_05/77.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/82.mp3
   - japanese: （あめ／ゆきが）ふる
     english: (rain/snow) falls
     kanji: （雨／雪が）降る
-    sound_file: Kaiwa_Bunpo_L08/K08_05/79.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/84.mp3
   - japanese: もっていく
     english: to take (a thing) (〜を)
     kanji: 持っていく
-    sound_file: Kaiwa_Bunpo_L08/K08_05/81.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/86.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: すてる
     english: to throw away (〜を)
     kanji: 捨てる
-    sound_file: Kaiwa_Bunpo_L08/K08_05/83.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/89.mp3
   - japanese: はじめる
     english: to begin (〜を)
     kanji: 始める
-    sound_file: Kaiwa_Bunpo_L08/K08_05/85.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/91.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: うんてんする
     english: to drive (〜を)
     kanji: 運転する
-    sound_file: Kaiwa_Bunpo_L08/K08_05/87.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/94.mp3
   - japanese: せんたくする
     english: to do laundry (〜を)
     kanji: 洗濯する
-    sound_file: Kaiwa_Bunpo_L08/K08_05/89.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/96.mp3
   - japanese: そうじする
     english: to clean (〜を)
     kanji: 掃除する
-    sound_file: Kaiwa_Bunpo_L08/K08_05/91.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/98.mp3
   - japanese: りょうりする
     english: to cook
     kanji: 料理する
-    sound_file: Kaiwa_Bunpo_L08/K08_05/93.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/100.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: うん
     english: uh-huh; yes
-    sound_file: Kaiwa_Bunpo_L08/K08_05/95.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/103.mp3
   - japanese: ううん
     english: uh-uh; no
-    sound_file: Kaiwa_Bunpo_L08/K08_05/98.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/106.mp3
   - japanese: いつも
     english: always
-    sound_file: Kaiwa_Bunpo_L08/K08_05/100.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/109.mp3
   - japanese: おそく
     english: (do something) late
     kanji: 遅く
-    sound_file: Kaiwa_Bunpo_L08/K08_05/102.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/111.mp3
   - japanese: かんぱい
     english: Cheers! (a toast)
     kanji: 乾杯
-    sound_file: Kaiwa_Bunpo_L08/K08_05/104.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/113.mp3
   - japanese: みんなで
     english: all (of the people) together
-    sound_file: Kaiwa_Bunpo_L08/K08_05/106.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/115.mp3
   - japanese: ざんねん（ですね）
     english: That's too bad.
     kanji: 残念（ですね）
-    sound_file: Kaiwa_Bunpo_L08/K08_05/108.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/117.mp3
   - japanese: まだ + negative
     english: not ... yet
-    sound_file: Kaiwa_Bunpo_L08/K08_05/111.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/119.mp3
   - japanese: 〜について
     english: about ...; concerning ...
-    sound_file: Kaiwa_Bunpo_L08/K08_05/113.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/122.mp3
   - japanese: 〜ど
     english: '... degrees (temperature)'
     kanji: 〜度
-    sound_file: Kaiwa_Bunpo_L08/K08_05/116.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/125.mp3
   - japanese: どう
     english: how
-    sound_file: Kaiwa_Bunpo_L08/K08_05/118.mp3
+    sound_file: Kaiwa_Bunpo_L08/K08_05/127.mp3

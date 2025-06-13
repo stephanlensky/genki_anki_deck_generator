@@ -1,8 +1,32 @@
 import json
-from pathlib import Path
-from typing import Any
+from pathlib import Path, PurePosixPath
+from typing import Any, Generator
 
+import pygame
+import pykakasi
 from yaml import safe_dump, safe_load
+
+kks = pykakasi.kakasi()
+pygame.mixer.init()
+
+
+def iter_cards(template: dict[str, Any]) -> Generator[dict[str, Any], None, None]:
+    if "vocabulary" in template:
+        for card in template["vocabulary"]:
+            yield from iter_cards(card)
+    if "japanese" in template:
+        yield template
+
+
+def increment_sound_index(cards: list[dict[str, Any]], increment: int) -> None:
+    for card in cards:
+        sound_file = card.get("sound_file")
+        if sound_file is None:
+            continue
+
+        idx = int(Path(sound_file).stem)
+        idx += increment
+        card["sound_file"] = str(PurePosixPath(sound_file).with_name(f"{idx}.mp3"))
 
 
 def main() -> None:
@@ -12,34 +36,80 @@ def main() -> None:
             continue
         with open(file, "r", encoding="utf-8") as f:
             templates.append((file, safe_load(f)))
-            # print(f"Loaded {file}")
 
     templates.sort(key=lambda x: x[0].parts[1:])
 
+    if Path("progress.json").exists():
+        with open("progress.json", "r", encoding="utf-8") as f:
+            progress = json.load(f)
+    else:
+        progress = {"completed": []}
+
     for template_file, template in templates:
-        target_path = Path("config/" + "/".join(template_file.parts[1:]))
-        with open(f"temp/{template.get('uid')}.json", "r", encoding="utf-8") as f:
-            skip_words = json.load(f)
+        if str(template_file) in progress["completed"]:
+            print(f"Skipping {template_file.name}, already completed.")
+            continue
+        print("Processing:", template_file)
+        cards = list(iter_cards(template))
+        if not any(card.get("sound_file") for card in cards):
+            print(f"No sound files found in {template_file.name}, skipping...")
+            continue
 
-        skip_words_dict = {}
-        for s in skip_words["skip_words"]:
-            skip_words_dict[int(s)] = True
+        deck = template_file.parent.parent.name
 
-        deck = template_file.parent.parent.name.replace("_", " ").title().replace(" ", "_")
-        lesson = "Lesson_" + template_file.parent.name.replace("L", "").removeprefix("0")
-        top_category = template_file.stem.replace("_", " ").title().replace(" ", "_")
-        sound_file = template.get("sound_file") or None
-        only_japanese = template.get("only_japanese", False)
-        new_template = process_card(
-            {"category": [deck, lesson, top_category], "vocabulary": template["cards"]},
-            sound_file,
-            skip_words_dict,
-            True if only_japanese == 1 else False,
-            template,
-            template_file.parent.parent.name,
-        )[1]
-        with open(target_path, "w", encoding="utf-8") as f:
-            safe_dump(
-                new_template, f, allow_unicode=True, default_flow_style=False, sort_keys=False
-            )
-            # print(f"Saved {target_path}")
+        for i, card in enumerate(cards):
+            if "sound_file" not in card:
+                continue
+
+            japanese = card.get("japanese")
+            kks_convert = kks.convert(japanese)
+            romaji = " ".join([item["hepburn"].strip() for item in kks_convert]).strip()
+            print(f"{japanese} - {romaji}")
+            response = None
+            try:
+                while True:
+                    sound_file = card.get("sound_file")
+                    while response not in ("y", "j", "k", ""):
+                        print(f"Sound file: {sound_file}, is this correct? (Y/j/k) ", end="")
+                        pygame.mixer.music.load(Path("sources/audio") / deck / Path(sound_file))
+                        pygame.mixer.music.play()
+                        response = input().strip().lower()
+                    if response == "j":
+                        increment_sound_index(cards[i:], -1)
+                        if not (
+                            Path("sources/audio") / deck / Path(cards[i].get("sound_file"))
+                        ).exists():
+                            print(
+                                f"Error: can't decrement, {cards[i].get('sound_file')} does not exist."
+                            )
+                            increment_sound_index(cards[i:], 1)
+                    elif response == "k":
+                        increment_sound_index(cards[i:], 1)
+                        if not (
+                            Path("sources/audio") / deck / Path(cards[i].get("sound_file"))
+                        ).exists():
+                            print(
+                                f"Error: can't increment, {cards[i].get('sound_file')} does not exist."
+                            )
+                            increment_sound_index(cards[i:], -1)
+                    elif response == "y" or response == "":
+                        break
+                    response = None
+            except KeyboardInterrupt:
+                print(f"\nExiting, saving progress on {template_file.name}...")
+                with open(template_file, "w", encoding="utf-8") as f:
+                    safe_dump(
+                        template, f, allow_unicode=True, default_flow_style=False, sort_keys=False
+                    )
+
+                return
+        with open(template_file, "w", encoding="utf-8") as f:
+            safe_dump(template, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+
+        progress["completed"].append(str(template_file))
+        with open("progress.json", "w", encoding="utf-8") as f:
+            json.dump(progress, f, ensure_ascii=False, indent=2)
+
+
+if __name__ == "__main__":
+    main()

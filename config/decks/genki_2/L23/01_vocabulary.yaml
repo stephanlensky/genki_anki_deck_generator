@@ -17,11 +17,11 @@ vocabulary:
   - japanese: ただ
     english: free of charge
     kanji: 只（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/7.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/9.mp3
   - japanese: ゆうしょく
     english: dinner
     kanji: 夕食
-    sound_file: Kaiwa_Bunpo_L23/K23_07/9.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/11.mp3
   - japanese: ばしょ
     english: place
     kanji: 場所
@@ -56,152 +56,152 @@ vocabulary:
   - japanese: きゅうこう
     english: class cancellation
     kanji: 休講
-    sound_file: Kaiwa_Bunpo_L23/K23_07/29.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/30.mp3
   - japanese: かいがいりょこう
     english: trip to a foreign country
     kanji: 海外旅行
-    sound_file: Kaiwa_Bunpo_L23/K23_07/31.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/32.mp3
   - japanese: ぼんおどり
     english: Bon dance (Japanese traditional dance)
     kanji: 盆踊り
-    sound_file: Kaiwa_Bunpo_L23/K23_07/33.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/34.mp3
   - japanese: おもいで
     english: memory
     kanji: 思い出
-    sound_file: Kaiwa_Bunpo_L23/K23_07/35.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/36.mp3
   - japanese: しゃかい
     english: society
     kanji: 社会
-    sound_file: Kaiwa_Bunpo_L23/K23_07/37.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/38.mp3
   - japanese: けっか
     english: result
     kanji: 結果
-    sound_file: Kaiwa_Bunpo_L23/K23_07/39.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/40.mp3
   - japanese: ちょうさ
     english: survey
     kanji: 調査
-    sound_file: Kaiwa_Bunpo_L23/K23_07/41.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/42.mp3
 - tags:
   - い-adjectives
   vocabulary:
   - japanese: まずい
     english: (food is) terrible
     kanji: 不味い（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/43.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/45.mp3
 - tags:
   - な-adjectives
   vocabulary:
   - japanese: かわいそう(な)
     english: pitiful; feel sorry for; poor thing
     kanji: 可哀相（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/45.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/48.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: あめがやむ
     english: the rain stops
     kanji: 雨が止む
-    sound_file: Kaiwa_Bunpo_L23/K23_07/47.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/53.mp3
   - japanese: ちがう
     english: to be different; to be wrong (～と)
     kanji: 違う
-    sound_file: Kaiwa_Bunpo_L23/K23_07/49.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/55.mp3
   - japanese: なくなる
     english: to be lost; to disappear (～が)
     kanji: 無くなる（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/51.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/58.mp3
   - japanese: いなくなる
     english: (someone) is gone; to disappear (～が)
-    sound_file: Kaiwa_Bunpo_L23/K23_07/54.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/61.mp3
   - japanese: おせわになる
     english: to be in someone's care (～に)
     kanji: お世話になる
-    sound_file: Kaiwa_Bunpo_L23/K23_07/56.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/64.mp3
   - japanese: おなかをこわす
     english: to have a stomache
     kanji: お腹を壊す（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/58.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/66.mp3
   - japanese: きにいる
     english: to find something agreeable (～が/を)
     kanji: 気に入る
-    sound_file: Kaiwa_Bunpo_L23/K23_07/60.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/68.mp3
   - japanese: わるぐちをいう
     english: to talk behind someone's back
     kanji: 悪口を言う
-    sound_file: Kaiwa_Bunpo_L23/K23_07/62.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/70.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: こたえる
     english: to answer (～に)
     kanji: 答える
-    sound_file: Kaiwa_Bunpo_L23/K23_07/64.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/73.mp3
   - japanese: はなれる
     english: (something/someone) separates; parts from (～と)
     kanji: 離れる
-    sound_file: Kaiwa_Bunpo_L23/K23_07/66.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/75.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: がっかりする
     english: to be disappointed (～に)
     kanji: ガッカリする（hiragana is more common）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/68.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/79.mp3
   - japanese: がまんする
     english: to be tolerant/patient (～を)
     kanji: 我慢する
-    sound_file: Kaiwa_Bunpo_L23/K23_07/70.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/81.mp3
   - japanese: どうじょうする
     english: to sympathize (～に)
     kanji: 同情する
-    sound_file: Kaiwa_Bunpo_L23/K23_07/72.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/84.mp3
   - japanese: ～かおをする
     english: to look… (facial expression)
     kanji: ～顔をする
-    sound_file: Kaiwa_Bunpo_L23/K23_07/74.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/86.mp3
   - japanese: カンニングする
     english: to cheat in an exam
-    sound_file: Kaiwa_Bunpo_L23/K23_07/76.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/88.mp3
   - japanese: チェックする
     english: to check (～を)
-    sound_file: Kaiwa_Bunpo_L23/K23_07/78.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/90.mp3
   - japanese: せわをする
     english: to take care of…(～の)
     kanji: 世話をする
-    sound_file: Kaiwa_Bunpo_L23/K23_07/80.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/92.mp3
   - japanese: ゆうしょうする
     english: to win a championship
     kanji: 優勝する
-    sound_file: Kaiwa_Bunpo_L23/K23_07/83.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/94.mp3
   - japanese: もどってくる
     english: (something/someone) comes back
     kanji: 戻ってくる
-    sound_file: Kaiwa_Bunpo_L23/K23_07/85.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/96.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: そんな～
     english: such…; that kind of…
-    sound_file: Kaiwa_Bunpo_L23/K23_07/88.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/99.mp3
   - japanese: ～ために
     english: for…; for the sake of…
-    sound_file: Kaiwa_Bunpo_L23/K23_07/90.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/102.mp3
   - japanese: ものすごく
     english: extremely
-    sound_file: Kaiwa_Bunpo_L23/K23_07/95.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/105.mp3
   - japanese: そろそろ
     english: it is about time to...
     kanji: ソロソロ(hiragana is more common)
-    sound_file: Kaiwa_Bunpo_L23/K23_07/97.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/107.mp3
   - japanese: さいごに
     english: finally
     kanji: 最後に
-    sound_file: Kaiwa_Bunpo_L23/K23_07/99.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/109.mp3
   - japanese: げんきでね
     english: Take care of yourself.
     kanji: 元気でね
-    sound_file: Kaiwa_Bunpo_L23/K23_07/101.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/111.mp3
   - japanese: そうそう
     english: You are right.
     kanji: 然う然う（rare）
-    sound_file: Kaiwa_Bunpo_L23/K23_07/104.mp3
+    sound_file: Kaiwa_Bunpo_L23/K23_07/113.mp3

@@ -13,36 +13,36 @@ vocabulary:
   - japanese: どろぼう
     english: thief; burglar
     kanji: 泥棒
-    sound_file: Kaiwa_Bunpo_L21/K21_07/5.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/6.mp3
   - japanese: はんにん
     english: criminal
     kanji: 犯人
-    sound_file: Kaiwa_Bunpo_L21/K21_07/8.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/9.mp3
   - japanese: どうりょう
     english: colleague
     kanji: 同僚
-    sound_file: Kaiwa_Bunpo_L21/K21_07/10.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/11.mp3
   - japanese: かいぎ
     english: business meeting; conference
     kanji: 会議
     sound_file: Kaiwa_Bunpo_L21/K21_07/13.mp3
   - japanese: スピーチ
     english: speech
-    sound_file: Kaiwa_Bunpo_L21/K21_07/15.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/16.mp3
   - japanese: か
     english: mosquito
     kanji: 蚊
-    sound_file: Kaiwa_Bunpo_L21/K21_07/17.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/18.mp3
   - japanese: ガソリン
     english: gasoline
-    sound_file: Kaiwa_Bunpo_L21/K21_07/19.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/20.mp3
   - japanese: ポスター
     english: poster
-    sound_file: Kaiwa_Bunpo_L21/K21_07/21.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/22.mp3
   - japanese: もんく
     english: complaint
     kanji: 文句
-    sound_file: Kaiwa_Bunpo_L21/K21_07/23.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/24.mp3
   - japanese: るす
     english: absence; not at home
     kanji: 留守
@@ -50,192 +50,192 @@ vocabulary:
   - japanese: けいさつ
     english: police; police station
     kanji: 警察
-    sound_file: Kaiwa_Bunpo_L21/K21_07/28.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/29.mp3
   - japanese: せいふ
     english: government
     kanji: 政府
-    sound_file: Kaiwa_Bunpo_L21/K21_07/30.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/32.mp3
   - japanese: じゅぎょうりょう
     english: tuition
     kanji: 授業料
-    sound_file: Kaiwa_Bunpo_L21/K21_07/32.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/34.mp3
   - japanese: こうじょう
     english: factory
     kanji: 工場
-    sound_file: Kaiwa_Bunpo_L21/K21_07/34.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/36.mp3
   - japanese: かんきょう
     english: environment
     kanji: 環境
-    sound_file: Kaiwa_Bunpo_L21/K21_07/36.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/38.mp3
   - japanese: しゅうでん
     english: last train (of the day)
     kanji: 終電
-    sound_file: Kaiwa_Bunpo_L21/K21_07/38.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/40.mp3
   - japanese: こと
     english: things; matters
     kanji: 事
-    sound_file: Kaiwa_Bunpo_L21/K21_07/40.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/42.mp3
   - japanese: むかし
     english: old days; past
     kanji: 昔
-    sound_file: Kaiwa_Bunpo_L21/K21_07/42.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/45.mp3
 - tags:
   - い-adjectives
   vocabulary:
   - japanese: とおい
     english: far (away)
     kanji: 遠い
-    sound_file: Kaiwa_Bunpo_L21/K21_07/44.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/49.mp3
   - japanese: ひどい
     english: awful
     kanji: 酷い（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/46.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/51.mp3
 - tags:
   - な-adjectives
   vocabulary:
   - japanese: あんぜん(な)
     english: safe
     kanji: 安全
-    sound_file: Kaiwa_Bunpo_L21/K21_07/48.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/54.mp3
   - japanese: めちゃくちゃ(な)
     english: messy; disorganized
     kanji: 目茶苦茶（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/51.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/56.mp3
   - japanese: へん(な)
     english: strange; unusual
     kanji: 変
-    sound_file: Kaiwa_Bunpo_L21/K21_07/53.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/58.mp3
 - tags:
   - U-verbs
   vocabulary:
   - japanese: おく
     english: to put; to lay; to place (place に object を)
     kanji: 置く
-    sound_file: Kaiwa_Bunpo_L21/K21_07/56.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/62.mp3
   - japanese: つつむ
     english: to wrap; to cover (～を)
     kanji: 包む
-    sound_file: Kaiwa_Bunpo_L21/K21_07/58.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/66.mp3
   - japanese: はる
     english: to post; to stick (place に object を)
     kanji: 貼る
-    sound_file: Kaiwa_Bunpo_L21/K21_07/60.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/69.mp3
   - japanese: やく
     english: to bake; to burn; to grill (～を)
     kanji: 焼く
-    sound_file: Kaiwa_Bunpo_L21/K21_07/62.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/72.mp3
   - japanese: やる
     english: to give (to pets, plants, younger siblings, etc.)  (～を)
     kanji: 遣る（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/64.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/76.mp3
   - japanese: ける
     english: to kick  (～を)
     kanji: 蹴る（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/66.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/78.mp3
   - japanese: なぐる
     english: to strike; to hit; to punch  (～を)
     kanji: 殴る
-    sound_file: Kaiwa_Bunpo_L21/K21_07/68.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/80.mp3
   - japanese: ふむ
     english: to step on  (～を)
     kanji: 踏む
-    sound_file: Kaiwa_Bunpo_L21/K21_07/70.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/84.mp3
   - japanese: さす
     english: to bite  (～を)
     kanji: 刺す
-    sound_file: Kaiwa_Bunpo_L21/K21_07/72.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/86.mp3
   - japanese: ぬすむ
     english: to steal; to rob (～を)
     kanji: 盗む
-    sound_file: Kaiwa_Bunpo_L21/K21_07/74.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/88.mp3
   - japanese: さわる
     english: to touch (～に／を)
     kanji: 触る
-    sound_file: Kaiwa_Bunpo_L21/K21_07/76.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/91.mp3
   - japanese: つかまる
     english: to be arrested; to be caught (～が)
     kanji: 捕まる
-    sound_file: Kaiwa_Bunpo_L21/K21_07/78.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/93.mp3
   - japanese: きがつく
     english: to notice (～に)
     kanji: 気が付く
-    sound_file: Kaiwa_Bunpo_L21/K21_07/81.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/96.mp3
   - japanese: ふる
     english: to turn down (somebody); to reject; to jilt (～を)
     kanji: 振る（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/83.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/98.mp3
   - japanese: もんくをいう
     english: to complain
     kanji: 文句を言う
-    sound_file: Kaiwa_Bunpo_L21/K21_07/87.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/102.mp3
 - tags:
   - Ru-verbs
   vocabulary:
   - japanese: いじめる
     english: to bully (～を)
     kanji: 苛める（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/89.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/105.mp3
   - japanese: ほめる
     english: to praise; to say nice things (～を)
     kanji: 褒める（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/91.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/107.mp3
   - japanese: きがえる
     english: to change clothes
     kanji: 着替える
-    sound_file: Kaiwa_Bunpo_L21/K21_07/93.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/110.mp3
   - japanese: しんじる
     english: to believe (～を)
     kanji: 信じる
-    sound_file: Kaiwa_Bunpo_L21/K21_07/96.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/112.mp3
   - japanese: ためる
     english: to save money (～を)
-    sound_file: Kaiwa_Bunpo_L21/K21_07/98.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/114.mp3
   - japanese: まちがえる
     english: to make a mistake (～を)
     kanji: 間違える
-    sound_file: Kaiwa_Bunpo_L21/K21_07/100.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/116.mp3
   - japanese: みつける
     english: to find (～を)
     kanji: 見つける
-    sound_file: Kaiwa_Bunpo_L21/K21_07/102.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/118.mp3
   - japanese: くらべる
     english: to compare (XとY～を)
     kanji: 比べる
-    sound_file: Kaiwa_Bunpo_L21/K21_07/104.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/120.mp3
 - tags:
   - Irregular_Verbs
   vocabulary:
   - japanese: ばかにする
     english: to insult; to make a fool of… (～を)
     kanji: 馬鹿にする（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/106.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/123.mp3
   - japanese: びっくりする
     english: to be surprised (～に)
     kanji: 吃驚する（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/110.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/126.mp3
   - japanese: ひるねをする
     english: to take a nap
     kanji: 昼寝をする
-    sound_file: Kaiwa_Bunpo_L21/K21_07/112.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/128.mp3
   - japanese: れんらくする
     english: to contact (person に)
     kanji: 連絡する
-    sound_file: Kaiwa_Bunpo_L21/K21_07/116.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/130.mp3
 - tags:
   - Adverbs_and_Other_Expressions
   vocabulary:
   - japanese: ごぜんちゅう
     english: in the morning
     kanji: 午前中
-    sound_file: Kaiwa_Bunpo_L21/K21_07/118.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/133.mp3
   - japanese: ～ころ
     english: time of …; when…
-    sound_file: Kaiwa_Bunpo_L21/K21_07/121.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/135.mp3
   - japanese: すこし
     english: a little
     kanji: 少し
-    sound_file: Kaiwa_Bunpo_L21/K21_07/123.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/138.mp3
   - japanese: とにかく
     english: anyhow; anyway
     kanji: 兎に角（rare）
-    sound_file: Kaiwa_Bunpo_L21/K21_07/126.mp3
+    sound_file: Kaiwa_Bunpo_L21/K21_07/140.mp3

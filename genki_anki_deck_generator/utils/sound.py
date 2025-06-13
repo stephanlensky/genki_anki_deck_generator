@@ -3,6 +3,8 @@ from pathlib import Path
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
 
+from genki_anki_deck_generator.utils.config import DeckAudioFileOverride
+
 
 def _detect_leading_silence(
     sound: AudioSegment, silence_threshold: float = -50.0, chunk_size: int = 10
@@ -24,7 +26,7 @@ def _detect_leading_silence(
 
 
 def _split_words(
-    file: Path, sound_silence_threshold: int, fuse: dict[int, int] | None = None
+    file: Path, sound_silence_threshold: int, overrides: dict[int, DeckAudioFileOverride]
 ) -> list[AudioSegment]:
     sound_file = AudioSegment.from_mp3(file)
     audio_chunks: list[AudioSegment] = split_on_silence(
@@ -41,11 +43,33 @@ def _split_words(
     i = 0
     while i < len(audio_chunks):
         sound = audio_chunks[i]
-        if fuse and i in fuse:
-            for j in range(fuse[i]):
+        override = overrides.get(i, DeckAudioFileOverride())
+        if override.fuse_with_next is not None:
+            for j in range(override.fuse_with_next):
                 print("Fusing chunk", i + j + 1, "with chunk", i, f"(word {len(words)})")
                 sound = sound.append(audio_chunks[i + j + 1], crossfade=0)
-            i += fuse[i]
+            i += override.fuse_with_next
+        if override.resplit is not None:
+            print(
+                "Splitting chunk",
+                i,
+                f"(word {len(words)})",
+                "with silence threshold",
+                override.resplit,
+            )
+            sound_parts = split_on_silence(
+                sound,
+                keep_silence=True,
+                min_silence_len=override.resplit,
+                silence_thresh=-32,
+            )
+            print("Split into", len(sound_parts), "parts")
+            for j, chunk in enumerate(sound_parts):
+                start_trim = _detect_leading_silence(chunk)
+                sound_parts[j] = chunk[start_trim:]
+                words.append(sound_parts[j])
+            i += 1
+            continue
 
         words.append(sound)
         i += 1
@@ -54,13 +78,16 @@ def _split_words(
 
 
 def split_audio_file(
-    file: Path, target_dir: Path, sound_silence_threshold: int, fuse: dict[int, int] | None = None
+    file: Path,
+    target_dir: Path,
+    sound_silence_threshold: int,
+    overrides: dict[int, DeckAudioFileOverride],
 ) -> None:
     """
     Splits the audio file into segments based on silence.
     Returns a list of AudioSegment objects.
     """
-    words = _split_words(file, sound_silence_threshold, fuse)
+    words = _split_words(file, sound_silence_threshold, overrides)
 
     target_dir.mkdir(parents=True, exist_ok=True)
     for i, word in enumerate(words):
